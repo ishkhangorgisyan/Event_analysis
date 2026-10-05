@@ -1,171 +1,157 @@
 import re
+from pathlib import Path
+from datetime import datetime
+
 import pandas as pd
-from datetime import datetime, timedelta
-import pyarrow.parquet as pq
 
-# Event IDs with timestamps
-event_data = [
-    (1, 16095175742, "2026-06-07 04:10:59.717738019"),
-    (2, 16095187908, "2026-06-07 04:25:28.717697657"),
-    (3, 16095320768, "2026-06-07 07:03:38.717261610"),
-    (4, 16095409066, "2026-06-07 08:48:45.716972135"),
-    (5, 16095417116, "2026-06-07 08:58:20.716942051"),
-    (6, 16095419706, "2026-06-07 09:01:25.716934067"),
-    (7, 16095445970, "2026-06-07 09:32:41.716854603"),
-    (8, 16095516656, "2026-06-07 10:56:50.716616745"),
-    (9, 16095685188, "2026-06-07 14:17:28.716070094"),
-    (10, 16095866446, "2026-06-07 17:53:15.715470758"),
-    (11, 16095912240, "2026-06-07 18:47:46.715324868"),
-    (12, 16095927626, "2026-06-07 19:06:05.715274307"),
-    (13, 16096045744, "2026-06-07 21:26:42.714887107"),
-    (14, 16096244308, "2026-06-08 01:23:05.908453740"),
-    (15, 16096424402, "2026-06-08 04:57:29.713645972"),
-    (16, 16096507310, "2026-06-08 06:36:11.713374157"),
-    (17, 16096616902, "2026-06-08 08:46:39.713014542"),
-    (18, 16096680910, "2026-06-08 10:02:51.712800783"),
-    (19, 16096701802, "2026-06-08 10:27:44.018994724"),
-    (20, 16098736138, "2026-06-10 02:49:33.706110229"),
-    (21, 16098984770, "2026-06-10 07:45:33.177389511"),
-    (22, 16121485108, "2026-06-28 22:10:49.067010260"),
-    (23, 16121491464, "2026-06-28 22:18:23.066968331"),
-    (24, 16121634838, "2026-06-29 01:09:04.066477953"),
-    (25, 16121679526, "2026-06-29 02:02:16.066331484"),
-    (26, 16121749834, "2026-06-29 03:25:58.066101780"),
-    (27, 16122468314, "2026-06-29 17:41:18.063747048"),
-    (28, 16122470176, "2026-06-29 17:43:31.063740791"),
-    (29, 16122477680, "2026-06-29 17:52:27.067172902"),
-    (30, 16122508032, "2026-06-29 18:28:35.095212049"),
-    (31, 16122521024, "2026-06-29 18:44:03.094525913"),
-    (32, 16122537264, "2026-06-29 19:03:23.093057210"),
-    (33, 16122545085, "2026-06-29 19:12:41.732042985"),
-    (34, 16122553238, "2026-06-29 19:22:24.093106555"),
-    (35, 16122554439, "2026-06-29 19:23:49.874978291"),
-    (36, 16122555898, "2026-06-29 19:25:34.093012611"),
-    (37, 16122557648, "2026-06-29 19:27:39.094389824"),
-    (38, 16122569730, "2026-06-29 19:42:02.063421106"),
-    (39, 16122596526, "2026-06-29 20:13:56.062983186"),
-    (40, 16122614488, "2026-06-29 20:35:19.063267891"),
-    (41, 16122658238, "2026-06-29 21:27:24.063130904"),
-    (42, 16122662984, "2026-06-29 21:33:03.063113517"),
-    (43, 16122697297, "2026-06-29 22:13:54.063001118"),
-    (44, 16122802536, "2026-06-30 00:19:11.090284262"),
-    (45, 16122804020, "2026-06-30 00:20:57.090279446"),
-    (46, 16122813517, "2026-06-30 00:32:15.469493279"),
-    (47, 16122814070, "2026-06-30 00:32:54.969447295"),
-    (48, 16122843360, "2026-06-30 01:07:47.062524471"),
-    (49, 16122847420, "2026-06-30 01:12:37.092985343"),
-    (50, 16122865718, "2026-06-30 01:34:24.088341250"),
-    (51, 15642507892, "2025-05-28 22:45:07.983413760"),
-    (52, 15642513562, "2025-05-28 22:51:52.987667968"),
-    (53, 15642516376, "2025-05-28 22:55:13.984815104"),
-    (54, 15642519638, "2025-05-28 22:59:06.984389376"),
-    (55, 15642520842, "2025-05-28 23:00:32.984205056"),
-    (56, 15642522046, "2025-05-28 23:01:58.985400832"),
-    (57, 15642523474, "2025-05-28 23:03:40.984174080"),
-    (58, 15642663250, "2025-05-29 01:50:04.990700800"),
-    (59, 15642807772, "2025-05-29 04:42:07.983225856"),
-    (60, 15642826448, "2025-05-29 05:04:21.984585216"),
-    (61, 15642862162, "2025-05-29 05:46:52.983750144"),
-    (62, 15642886872, "2025-05-29 06:16:17.983703296"),
-    (63, 15642956480, "2025-05-29 07:39:09.983609856"),
-    (64, 15643009834, "2025-05-29 08:42:40.982949888"),
-    (65, 15643012382, "2025-05-29 08:45:42.982275840"),
-    (66, 15643016190, "2025-05-29 08:50:14.982704896"),
-    (67, 15643035093, "2025-05-29 09:12:45.195043584"),
-    (68, 15643049090, "2025-05-29 09:29:24.982075136"),
-    (69, 15643063118, "2025-05-29 09:46:06.982406144"),
-    (70, 15643185002, "2025-05-29 12:11:12.986799872"),
-    (71, 15643240862, "2025-05-29 13:17:42.983744256"),
-    (72, 15643253798, "2025-05-29 13:33:06.985936640"),
-    (73, 15643272054, "2025-05-29 13:54:50.983225344"),
-    (74, 15643286012, "2025-05-29 14:11:27.982646784"),
-    (75, 15643300166, "2025-05-29 14:28:18.982828544"),
-    (76, 15643457698, "2025-05-29 17:35:51.299742464"),
-    (77, 15643763841, "2025-05-29 23:40:18.655988480"),
-    (78, 15643822548, "2025-05-30 00:50:11.982693376"),
-    (79, 15643923852, "2025-05-30 02:50:47.981425920"),
-    (80, 15644066092, "2025-05-30 05:40:07.984749568"),
-    (81, 15644067268, "2025-05-30 05:41:31.998913024"),
-]
 
-# Parse timestamp and round to nearest second for matching
-parsed_events = []
-for idx, event_id, ts_str in event_data:
-    dt = datetime.fromisoformat(ts_str.replace('Z', '+00:00'))
-    # Round to nearest second for matching
-    dt_rounded = dt.replace(microsecond=0)
-    parsed_events.append({
-        'index': idx,
-        'event_id': event_id,
-        'event_timestamp': ts_str,
-        'event_timestamp_rounded': dt_rounded
-    })
+EVENT_FILE = "Event_IDs.xlsx"
+REPORT_FILE = "Events.txt"
+OUTPUT_XLSX = "matched_event_details.xlsx"
+OUTPUT_PARQUET = "matched_event_details.parquet"
+OUTPUT_CSV = "matched_event_details.csv"
 
-# Read Events.txt and parse
-with open('Events.txt', 'r') as f:
-    content = f.read()
 
-# Split by report sections
-reports = re.split(r'^```\n', content, flags=re.MULTILINE)
+def parse_dt(value):
+    if pd.isna(value):
+        return None
+    if isinstance(value, datetime):
+        return value
+    value = str(value).strip()
+    if not value:
+        return None
+    value = value.replace("Z", "+00:00")
+    if "+" in value or value.endswith(" UTC"):
+        try:
+            return pd.Timestamp(value).to_pydatetime()
+        except Exception:
+            pass
+    try:
+        return datetime.strptime(value, "%Y-%m-%d %H:%M:%S.%f")
+    except ValueError:
+        try:
+            return datetime.strptime(value, "%Y-%m-%d %H:%M:%S")
+        except ValueError:
+            pass
+    try:
+        return pd.Timestamp(value).to_pydatetime()
+    except Exception as exc:
+        raise ValueError(f"Could not parse timestamp: {value!r}") from exc
 
-results = []
 
-for parsed_event in parsed_events:
-    event_id = parsed_event['event_id']
-    target_dt = parsed_event['event_timestamp_rounded']
-    found = False
-    
-    # Search through reports
-    for report in reports:
-        if not report.strip():
+def extract_reports(text):
+    # Split on the report blocks that start with a timestamp line after the header.
+    blocks = re.split(r"(?=\n?REPORT\s+\|\s+Beam\s+\|\s+Beam\s*\n)", text)
+    reports = []
+    for block in blocks:
+        block = block.strip()
+        if not block:
             continue
-            
-        # Extract Time line
-        time_match = re.search(r'Time\s*:\s*(\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2})', report)
-        if not time_match:
+        time_match = re.search(r"Time\s*:\s*(\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2})", block)
+        if time_match:
+            reports.append({
+                "time_str": time_match.group(1),
+                "time_dt": datetime.strptime(time_match.group(1), "%Y-%m-%d %H:%M:%S"),
+                "text": block,
+            })
+    return reports
+
+
+def get_deepest_mps_lines(report_text):
+    mps_match = re.search(r"\[MPS\]\s*(.*?)(?:\n\s*═|\Z)", report_text, flags=re.DOTALL)
+    if not mps_match:
+        return ""
+    section = mps_match.group(1)
+    lines = []
+    for raw in section.splitlines():
+        line = raw.rstrip()
+        if not line.strip():
             continue
-            
-        report_time_str = time_match.group(1)
-        report_dt = datetime.strptime(report_time_str, '%Y-%m-%d %H:%M:%S')
-        
-        # Check if this report matches our target timestamp (within 2 seconds tolerance)
-        if abs((report_dt - target_dt).total_seconds()) <= 2:
-            # Extract MPS section (the fault information)
-            mps_match = re.search(r'\[MPS\](.*?)(?:════|$)', report, re.DOTALL)
-            if mps_match:
-                mps_content = mps_match.group(1).strip()
-                # Get all lines with fault info
-                fault_lines = []
-                for line in mps_content.split('\n'):
-                    line = line.strip()
-                    if line and line.startswith('→') or line.startswith('└') or line.startswith('├'):
-                        fault_lines.append(line)
-                
-                results.append({
-                    'sequence': parsed_event['index'],
-                    'event_id': event_id,
-                    'event_timestamp': parsed_event['event_timestamp'],
-                    'report_time': report_time_str,
-                    'fault_hierarchy': ' | '.join(fault_lines) if fault_lines else mps_content
-                })
-                found = True
-                break
-    
-    if not found:
+        if line.lstrip().startswith("→") or line.lstrip().startswith("├") or line.lstrip().startswith("└"):
+            lines.append(line)
+    if not lines:
+        return ""
+
+    # Determine deepest indentation among valid MPS lines.
+    depths = []
+    for line in lines:
+        s = line.lstrip()
+        indent = len(line) - len(s)
+        depths.append(indent)
+    max_depth = max(depths)
+    deepest = [line for line, d in zip(lines, depths) if d == max_depth]
+
+    return "\n".join(deepest)
+
+
+def main():
+    if not Path(EVENT_FILE).exists():
+        raise FileNotFoundError(f"Missing Excel file: {EVENT_FILE}")
+    if not Path(REPORT_FILE).exists():
+        raise FileNotFoundError(f"Missing report text file: {REPORT_FILE}")
+
+    df = pd.read_excel(EVENT_FILE)
+
+    # Accept common column names.
+    rename_map = {}
+    for col in df.columns:
+        norm = str(col).strip().lower().replace(" ", "_")
+        if norm in {"event_id", "eventid", "id"}:
+            rename_map[col] = "event_id"
+        elif norm in {"ctype", "type"}:
+            rename_map[col] = "ctype"
+        elif norm in {"event_ts", "event_time", "timestamp", "ts"}:
+            rename_map[col] = "event_ts"
+    if rename_map:
+        df = df.rename(columns=rename_map)
+
+    required = {"event_id", "event_ts"}
+    missing = sorted(required - set(df.columns))
+    if missing:
+        raise ValueError(f"Excel file is missing required columns: {missing}")
+
+    df["event_id"] = df["event_id"].astype(str).str.strip()
+    df["event_ts"] = df["event_ts"].map(parse_dt)
+    if "ctype" not in df.columns:
+        df["ctype"] = "PM"
+
+    report_blocks = extract_reports(Path(REPORT_FILE).read_text(encoding="utf-8", errors="replace"))
+
+    results = []
+    for row in df.itertuples(index=False):
+        event_id = getattr(row, "event_id")
+        ctype = getattr(row, "ctype", "PM")
+        event_dt = getattr(row, "event_ts")
+
+        best = None
+        for rep in report_blocks:
+            td = abs((rep["time_dt"] - event_dt).total_seconds())
+            if best is None or td < best[0]:
+                best = (td, rep)
+
+        if best is None or best[0] > 2.0:
+            matched_time = None
+            last_level = "NO_MATCH"
+        else:
+            matched_time = best[1]["time_str"]
+            last_level = get_deepest_mps_lines(best[1]["text"])
+
         results.append({
-            'sequence': parsed_event['index'],
-            'event_id': event_id,
-            'event_timestamp': parsed_event['event_timestamp'],
-            'report_time': 'NOT FOUND',
-            'fault_hierarchy': 'No matching report found'
+            "event_id": event_id,
+            "ctype": ctype,
+            "event_ts": event_dt.strftime("%Y-%m-%d %H:%M:%S.%f") if event_dt else None,
+            "matched_report_time": matched_time,
+            "last_level_lines": last_level,
         })
 
-# Create DataFrame and save to Parquet
-df = pd.DataFrame(results)
-df.to_parquet('events_matched.parquet', index=False)
-df.to_excel('events_matched.xlsx', index=False)
+    out_df = pd.DataFrame(results)
+    out_df.to_csv(OUTPUT_CSV, index=False)
+    out_df.to_excel(OUTPUT_XLSX, index=False)
+    out_df.to_parquet(OUTPUT_PARQUET, index=False)
 
-print(f"✓ Processed {len(results)} events")
-print(f"✓ Saved to events_matched.parquet and events_matched.xlsx")
-print("\nFirst 5 results:")
-print(df.head())
+    print(f"Saved {len(out_df)} rows to {OUTPUT_CSV}, {OUTPUT_XLSX}, and {OUTPUT_PARQUET}")
+    print(out_df.head(10).to_string(index=False))
+
+
+if __name__ == "__main__":
+    main()
