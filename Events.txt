@@ -1,0 +1,3276 @@
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-28 22:20:37
+Duration : 2 min 7 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 22:20:37.692  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 10:11:59.479  (-12 h 8 min)
+    Beam Destination = BeamDump             @ 10:15:23.981  (-12 h 5 min)
+    Expected Current = 5.22732 mA           @ 22:15:58.759  (-4 min 39 s)
+    Beam Frequency = 1.0 Hz                 @ 19:19:37.836  (-3 h 1 min)
+    RF Frequency = 1.0 Hz                   @ 19:19:37.837  (-3 h 1 min)
+    Source Frequency = 1.0 Hz               @ 19:19:37.837  (-3 h 1 min)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-102 h 11 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-33 h 40 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-33 h 40 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 22:20:38.699  (+1.007 s)
+      └─ → RF Systems = NOK   [= 0]         @ 22:20:38.697  (+1.005 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 22:20:38.696  (+1.004 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-28 22:23:02
+Duration : 1 min 48 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 22:23:02.694  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 10:11:59.479  (-12 h 11 min)
+    Beam Destination = BeamDump             @ 10:15:23.981  (-12 h 7 min)
+    Expected Current = 4.47938 mA           @ 22:22:37.800  (-24.894 s)
+    Beam Frequency = 1.0 Hz                 @ 19:19:37.836  (-3 h 3 min)
+    RF Frequency = 1.0 Hz                   @ 19:19:37.837  (-3 h 3 min)
+    Source Frequency = 1.0 Hz               @ 19:19:37.837  (-3 h 3 min)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-102 h 14 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-33 h 43 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-33 h 43 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 22:23:03.694  (+1.000 s)
+      └─ → RF Systems = NOK   [= 0]         @ 22:23:03.691  (+0.997 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 22:23:03.689  (+0.995 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-28 22:27:27
+Duration : 49 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 22:27:27.693  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 10:11:59.479  (-12 h 15 min)
+    Beam Destination = BeamDump             @ 10:15:23.981  (-12 h 12 min)
+    Expected Current = 4.47938 mA           @ 22:22:37.800  (-4 min 50 s)
+    Beam Frequency = 1.0 Hz                 @ 19:19:37.836  (-3 h 7 min)
+    RF Frequency = 1.0 Hz                   @ 19:19:37.837  (-3 h 7 min)
+    Source Frequency = 1.0 Hz               @ 19:19:37.837  (-3 h 7 min)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-102 h 18 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-33 h 47 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-33 h 47 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 22:27:28.693  (+1.000 s)
+      └─ → RF Systems = NOK   [= 0]         @ 22:27:28.690  (+0.997 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 22:27:28.689  (+0.996 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-28 22:30:48
+Duration : 51 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 22:30:48.690  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 10:11:59.479  (-12 h 18 min)
+    Beam Destination = BeamDump             @ 10:15:23.981  (-12 h 15 min)
+    Expected Current = 4.2 mA               @ 22:28:10.710  (-2 min 38 s)
+    Beam Frequency = 1.0 Hz                 @ 19:19:37.836  (-3 h 11 min)
+    RF Frequency = 1.0 Hz                   @ 19:19:37.837  (-3 h 11 min)
+    Source Frequency = 1.0 Hz               @ 19:19:37.837  (-3 h 11 min)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-102 h 21 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-33 h 51 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-33 h 51 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 22:30:49.694  (+1.003 s)
+      └─ → RF Systems = NOK   [= 0]         @ 22:30:49.691  (+1.001 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 22:30:49.690  (+1.000 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-28 22:33:32
+Duration : 6 min 44 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 22:33:32.695  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 10:11:59.479  (-12 h 21 min)
+    Beam Destination = BeamDump             @ 10:15:23.981  (-12 h 18 min)
+    Expected Current = 4.2 mA               @ 22:28:10.710  (-5 min 22 s)
+    Beam Frequency = 1.0 Hz                 @ 19:19:37.836  (-3 h 13 min)
+    RF Frequency = 1.0 Hz                   @ 19:19:37.837  (-3 h 13 min)
+    Source Frequency = 1.0 Hz               @ 19:19:37.837  (-3 h 13 min)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-102 h 24 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-33 h 53 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-33 h 53 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 22:33:33.695  (+1.000 s)
+      └─ → RF Systems = NOK   [= 0]         @ 22:33:33.690  (+0.996 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 22:33:33.689  (+0.995 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-28 22:40:38
+Duration : 2 min 47 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 22:40:38.695  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 10:11:59.479  (-12 h 28 min)
+    Beam Destination = BeamDump             @ 10:15:23.981  (-12 h 25 min)
+    Expected Current = 4.2 mA               @ 22:28:10.710  (-12 min 28 s)
+    Beam Frequency = 1.0 Hz                 @ 19:19:37.836  (-3 h 21 min)
+    RF Frequency = 1.0 Hz                   @ 19:19:37.837  (-3 h 21 min)
+    Source Frequency = 1.0 Hz               @ 19:19:37.837  (-3 h 21 min)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-102 h 31 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-34 h 0 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-34 h 0 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 22:40:39.697  (+1.002 s)
+      └─ → RF Systems = NOK   [= 0]         @ 22:40:39.695  (+1.000 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 22:40:39.694  (+0.999 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-28 22:45:06
+Duration : 43 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 22:45:06.697  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 10:11:59.479  (-12 h 33 min)
+    Beam Destination = BeamDump             @ 10:15:23.981  (-12 h 29 min)
+    Expected Current = 4.2 mA               @ 22:28:10.710  (-16 min 56 s)
+    Beam Frequency = 1.0 Hz                 @ 19:19:37.836  (-3 h 25 min)
+    RF Frequency = 1.0 Hz                   @ 19:19:37.837  (-3 h 25 min)
+    Source Frequency = 1.0 Hz               @ 19:19:37.837  (-3 h 25 min)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-102 h 36 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-34 h 5 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-34 h 5 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 22:45:07.700  (+1.003 s)
+      └─ → RF Systems = NOK   [= 0]         @ 22:45:07.698  (+1.001 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 22:45:07.697  (+0.999 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-28 22:51:52
+Duration : 2 min 50 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]     @ 22:51:52.691  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                    @ 10:11:59.479  (-12 h 39 min)
+    Beam Destination = BeamDump          @ 10:15:23.981  (-12 h 36 min)
+    Expected Current = 4.2 mA            @ 22:28:10.710  (-23 min 42 s)
+    Beam Frequency = 1.0 Hz              @ 19:19:37.836  (-3 h 32 min)
+    RF Frequency = 1.0 Hz                @ 19:19:37.837  (-3 h 32 min)
+    Source Frequency = 1.0 Hz            @ 19:19:37.837  (-3 h 32 min)
+    Source Pulse Length = 6500.0 us      @ 2025-05-24 16:08:51.000  (-102 h 43 min)
+    LEBT Pulse Length = 24.0 us          @ 2025-05-27 12:39:48.703  (-34 h 12 min)
+    Beam Pulse Length = 5.0 us           @ 2025-05-27 12:39:48.703  (-34 h 12 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]    @ 22:51:52.693  (+0.002 s)
+      └─ → RF Systems = NOK   [= 0]      @ 22:51:52.690  (-0.001 s)
+         └─ → Spk-130 S2 = NOK   [= 0]   @ 22:51:52.689  (-0.002 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-28 22:55:12
+Duration : 26 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 22:55:12.692  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 10:11:59.479  (-12 h 43 min)
+    Beam Destination = BeamDump             @ 10:15:23.981  (-12 h 39 min)
+    Expected Current = 4.0 mA               @ 22:52:49.970  (-2 min 23 s)
+    Beam Frequency = 1.0 Hz                 @ 19:19:37.836  (-3 h 35 min)
+    RF Frequency = 1.0 Hz                   @ 19:19:37.837  (-3 h 35 min)
+    Source Frequency = 1.0 Hz               @ 19:19:37.837  (-3 h 35 min)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-102 h 46 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-34 h 15 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-34 h 15 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 22:55:13.692  (+1.000 s)
+      └─ → RF Systems = NOK   [= 0]         @ 22:55:13.689  (+0.997 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 22:55:13.689  (+0.996 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-28 22:59:05
+Duration : 23 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 22:59:05.709  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 10:11:59.479  (-12 h 47 min)
+    Beam Destination = BeamDump             @ 10:15:23.981  (-12 h 43 min)
+    Expected Current = 4.0 mA               @ 22:52:49.970  (-6 min 16 s)
+    Beam Frequency = 1.0 Hz                 @ 19:19:37.836  (-3 h 39 min)
+    RF Frequency = 1.0 Hz                   @ 19:19:37.837  (-3 h 39 min)
+    Source Frequency = 1.0 Hz               @ 19:19:37.837  (-3 h 39 min)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-102 h 50 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-34 h 19 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-34 h 19 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 22:59:06.696  (+0.987 s)
+      └─ → RF Systems = NOK   [= 0]         @ 22:59:06.692  (+0.983 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 22:59:06.690  (+0.981 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-28 23:00:31
+Duration : 40 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 23:00:31.694  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 10:11:59.479  (-12 h 48 min)
+    Beam Destination = BeamDump             @ 10:15:23.981  (-12 h 45 min)
+    Expected Current = 4.0 mA               @ 22:52:49.970  (-7 min 42 s)
+    Beam Frequency = 1.0 Hz                 @ 19:19:37.836  (-3 h 40 min)
+    RF Frequency = 1.0 Hz                   @ 19:19:37.837  (-3 h 40 min)
+    Source Frequency = 1.0 Hz               @ 19:19:37.837  (-3 h 40 min)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-102 h 51 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-34 h 20 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-34 h 20 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 23:00:32.692  (+0.997 s)
+      └─ → RF Systems = NOK   [= 0]         @ 23:00:32.690  (+0.996 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 23:00:32.688  (+0.994 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-28 23:01:57
+Duration : 41 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 23:01:57.694  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 10:11:59.479  (-12 h 49 min)
+    Beam Destination = BeamDump             @ 10:15:23.981  (-12 h 46 min)
+    Expected Current = 4.0 mA               @ 22:52:49.970  (-9 min 8 s)
+    Beam Frequency = 1.0 Hz                 @ 19:19:37.836  (-3 h 42 min)
+    RF Frequency = 1.0 Hz                   @ 19:19:37.837  (-3 h 42 min)
+    Source Frequency = 1.0 Hz               @ 19:19:37.837  (-3 h 42 min)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-102 h 53 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-34 h 22 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-34 h 22 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 23:01:58.696  (+1.003 s)
+      └─ → RF Systems = NOK   [= 0]         @ 23:01:58.694  (+1.001 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 23:01:58.691  (+0.998 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-28 23:03:39
+Duration : 30 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 23:03:39.691  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 10:11:59.479  (-12 h 51 min)
+    Beam Destination = BeamDump             @ 10:15:23.981  (-12 h 48 min)
+    Expected Current = 4.0 mA               @ 22:52:49.970  (-10 min 50 s)
+    Beam Frequency = 1.0 Hz                 @ 19:19:37.836  (-3 h 44 min)
+    RF Frequency = 1.0 Hz                   @ 19:19:37.837  (-3 h 44 min)
+    Source Frequency = 1.0 Hz               @ 19:19:37.837  (-3 h 44 min)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-102 h 54 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-34 h 23 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-34 h 23 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 23:03:40.706  (+1.016 s)
+      └─ → RF Systems = NOK   [= 0]         @ 23:03:40.705  (+1.014 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 23:03:40.704  (+1.013 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-29 01:50:03
+Duration : 4 min 39 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]    @ 01:50:03.693  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                   @ 2025-05-28 10:11:59.479  (-15 h 38 min)
+    Beam Destination = BeamDump         @ 2025-05-28 10:15:23.981  (-15 h 34 min)
+    Expected Current = 5.22732 mA       @ 00:44:09.440  (-1 h 5 min)
+    Beam Frequency = 1.0 Hz             @ 2025-05-28 19:19:37.836  (-6 h 30 min)
+    RF Frequency = 1.0 Hz               @ 2025-05-28 19:19:37.837  (-6 h 30 min)
+    Source Frequency = 1.0 Hz           @ 2025-05-28 23:56:03.836  (-1 h 54 min)
+    Source Pulse Length = 6500.0 us     @ 2025-05-24 16:08:51.000  (-105 h 41 min)
+    LEBT Pulse Length = 24.0 us         @ 2025-05-27 12:39:48.703  (-37 h 10 min)
+    Beam Pulse Length = 5.0 us          @ 2025-05-27 12:39:48.703  (-37 h 10 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]   @ 01:50:04.696  (+1.003 s)
+      └─ → RF Systems = NOK   [= 0]     @ 01:50:04.694  (+1.001 s)
+         └─ → DTL-010 = NOK   [= 0]     @ 01:50:04.692  (+0.999 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-29 04:42:06
+Duration : 2 min 20 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 04:42:06.697  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 2025-05-28 10:11:59.479  (-18 h 30 min)
+    Beam Destination = BeamDump             @ 2025-05-28 10:15:23.981  (-18 h 26 min)
+    Expected Current = 5.22732 mA           @ 01:55:32.850  (-2 h 46 min)
+    Beam Frequency = 1.0 Hz                 @ 04:25:45.835  (-16 min 21 s)
+    RF Frequency = 1.0 Hz                   @ 04:25:45.836  (-16 min 21 s)
+    Source Frequency = 1.0 Hz               @ 04:25:45.835  (-16 min 21 s)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-108 h 33 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-40 h 2 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-40 h 2 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 04:42:07.699  (+1.002 s)
+      └─ → RF Systems = NOK   [= 0]         @ 04:42:07.697  (+1.001 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 04:42:07.695  (+0.999 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-29 05:04:20
+Duration : 1 min 49 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 05:04:20.694  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 2025-05-28 10:11:59.479  (-18 h 52 min)
+    Beam Destination = BeamDump             @ 2025-05-28 10:15:23.981  (-18 h 48 min)
+    Expected Current = 5.22732 mA           @ 04:45:48.650  (-18 min 32 s)
+    Beam Frequency = 1.0 Hz                 @ 04:25:45.835  (-38 min 35 s)
+    RF Frequency = 1.0 Hz                   @ 04:25:45.836  (-38 min 35 s)
+    Source Frequency = 1.0 Hz               @ 04:25:45.835  (-38 min 35 s)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-108 h 55 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-40 h 24 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-40 h 24 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 05:04:21.691  (+0.997 s)
+      └─ → RF Systems = NOK   [= 0]         @ 05:04:21.689  (+0.995 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 05:04:21.688  (+0.994 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-29 05:46:51
+Duration : 1 min 54 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 05:46:51.697  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 2025-05-28 10:11:59.479  (-19 h 34 min)
+    Beam Destination = BeamDump             @ 2025-05-28 10:15:23.981  (-19 h 31 min)
+    Expected Current = 5.22732 mA           @ 05:07:22.310  (-39 min 29 s)
+    Beam Frequency = 1.0 Hz                 @ 04:25:45.835  (-1 h 21 min)
+    RF Frequency = 1.0 Hz                   @ 04:25:45.836  (-1 h 21 min)
+    Source Frequency = 1.0 Hz               @ 04:25:45.835  (-1 h 21 min)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-109 h 38 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-41 h 7 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-41 h 7 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 05:46:52.692  (+0.995 s)
+      └─ → RF Systems = NOK   [= 0]         @ 05:46:52.690  (+0.993 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 05:46:52.688  (+0.991 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-29 06:16:16
+Duration : 55 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 06:16:16.701  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 2025-05-28 10:11:59.479  (-20 h 4 min)
+    Beam Destination = BeamDump             @ 2025-05-28 10:15:23.981  (-20 h 0 min)
+    Expected Current = 5.22732 mA           @ 05:49:11.529  (-27 min 5 s)
+    Beam Frequency = 1.0 Hz                 @ 04:25:45.835  (-1 h 50 min)
+    RF Frequency = 1.0 Hz                   @ 04:25:45.836  (-1 h 50 min)
+    Source Frequency = 1.0 Hz               @ 04:25:45.835  (-1 h 50 min)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-110 h 7 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-41 h 36 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-41 h 36 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 06:16:17.693  (+0.992 s)
+      └─ → RF Systems = NOK   [= 0]         @ 06:16:17.690  (+0.989 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 06:16:17.689  (+0.988 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-29 07:39:08
+Duration : 3 min 7 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 07:39:08.692  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 2025-05-28 10:11:59.479  (-21 h 27 min)
+    Beam Destination = BeamDump             @ 2025-05-28 10:15:23.981  (-21 h 23 min)
+    Expected Current = 5.22732 mA           @ 06:20:51.669  (-1 h 18 min)
+    Beam Frequency = 1.0 Hz                 @ 04:25:45.835  (-3 h 13 min)
+    RF Frequency = 1.0 Hz                   @ 04:25:45.836  (-3 h 13 min)
+    Source Frequency = 1.0 Hz               @ 04:25:45.835  (-3 h 13 min)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-111 h 30 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-42 h 59 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-42 h 59 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 07:39:09.695  (+1.003 s)
+      └─ → RF Systems = NOK   [= 0]         @ 07:39:09.690  (+0.998 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 07:39:09.689  (+0.997 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-29 08:42:39
+Duration : 2 min 11 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 08:42:39.691  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 2025-05-28 10:11:59.479  (-22 h 30 min)
+    Beam Destination = BeamDump             @ 2025-05-28 10:15:23.981  (-22 h 27 min)
+    Expected Current = 5.22732 mA           @ 07:42:50.259  (-59 min 49 s)
+    Beam Frequency = 1.0 Hz                 @ 04:25:45.835  (-4 h 16 min)
+    RF Frequency = 1.0 Hz                   @ 04:25:45.836  (-4 h 16 min)
+    Source Frequency = 1.0 Hz               @ 04:25:45.835  (-4 h 16 min)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-112 h 33 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-44 h 2 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-44 h 2 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 08:42:40.696  (+1.004 s)
+      └─ → RF Systems = NOK   [= 0]         @ 08:42:40.693  (+1.002 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 08:42:40.692  (+1.001 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-29 09:46:05
+Duration : 2 min 21 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 09:46:05.694  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 2025-05-28 10:11:59.479  (-23 h 34 min)
+    Beam Destination = BeamDump             @ 2025-05-28 10:15:23.981  (-23 h 30 min)
+    Expected Current = 5.22732 mA           @ 09:33:21.440  (-12 min 44 s)
+    Beam Frequency = 1.0 Hz                 @ 08:53:41.834  (-52 min 24 s)
+    RF Frequency = 1.0 Hz                   @ 04:25:45.836  (-5 h 20 min)
+    Source Frequency = 1.0 Hz               @ 04:25:45.835  (-5 h 20 min)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-113 h 37 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-45 h 6 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-45 h 6 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 09:46:06.693  (+0.999 s)
+      └─ → RF Systems = NOK   [= 0]         @ 09:46:06.690  (+0.997 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 09:46:06.689  (+0.995 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-29 12:11:11
+Duration : 33 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 12:11:11.700  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 2025-05-28 10:11:59.479  (-25 h 59 min)
+    Beam Destination = BeamDump             @ 2025-05-28 10:15:23.981  (-25 h 55 min)
+    Expected Current = 5.22732 mA           @ 09:48:47.792  (-2 h 22 min)
+    Beam Frequency = 1.0 Hz                 @ 08:53:41.834  (-3 h 17 min)
+    RF Frequency = 1.0 Hz                   @ 04:25:45.836  (-7 h 45 min)
+    Source Frequency = 1.0 Hz               @ 04:25:45.835  (-7 h 45 min)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-116 h 2 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-47 h 31 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-47 h 31 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 12:11:12.696  (+0.995 s)
+      └─ → RF Systems = NOK   [= 0]         @ 12:11:12.693  (+0.992 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 12:11:12.692  (+0.992 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-29 13:17:41
+Duration : 58 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 13:17:41.697  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 2025-05-28 10:11:59.479  (-27 h 5 min)
+    Beam Destination = BeamDump             @ 2025-05-28 10:15:23.981  (-27 h 2 min)
+    Expected Current = 5.22732 mA           @ 12:15:20.220  (-1 h 2 min)
+    Beam Frequency = 1.0 Hz                 @ 08:53:41.834  (-4 h 24 min)
+    RF Frequency = 1.0 Hz                   @ 04:25:45.836  (-8 h 51 min)
+    Source Frequency = 1.0 Hz               @ 04:25:45.835  (-8 h 51 min)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-117 h 8 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-48 h 37 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-48 h 37 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 13:17:42.694  (+0.996 s)
+      └─ → RF Systems = NOK   [= 0]         @ 13:17:42.692  (+0.995 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 13:17:42.690  (+0.993 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-29 13:33:05
+Duration : 1 min 57 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 13:33:05.693  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 2025-05-28 10:11:59.479  (-27 h 21 min)
+    Beam Destination = BeamDump             @ 2025-05-28 10:15:23.981  (-27 h 17 min)
+    Expected Current = 5.22732 mA           @ 13:19:44.840  (-13 min 21 s)
+    Beam Frequency = 1.0 Hz                 @ 13:31:53.833  (-1 min 12 s)
+    RF Frequency = 1.0 Hz                   @ 13:31:53.834  (-1 min 12 s)
+    Source Frequency = 1.0 Hz               @ 13:31:53.834  (-1 min 12 s)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-117 h 24 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-48 h 53 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-48 h 53 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 13:33:06.701  (+1.007 s)
+      └─ → RF Systems = NOK   [= 0]         @ 13:33:06.693  (+1.000 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 13:33:06.692  (+0.999 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-29 13:54:49
+Duration : 1 min 16 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]        @ 13:54:49.693  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                       @ 2025-05-28 10:11:59.479  (-27 h 42 min)
+    Beam Destination = BeamDump             @ 2025-05-28 10:15:23.981  (-27 h 39 min)
+    Expected Current = 5.22732 mA           @ 13:37:01.419  (-17 min 48 s)
+    Beam Frequency = 1.0 Hz                 @ 13:31:53.833  (-22 min 56 s)
+    RF Frequency = 1.0 Hz                   @ 13:31:53.834  (-22 min 56 s)
+    Source Frequency = 1.0 Hz               @ 13:31:53.834  (-22 min 56 s)
+    Source Pulse Length = 6500.0 us         @ 2025-05-24 16:08:51.000  (-117 h 45 min)
+    LEBT Pulse Length = 24.0 us             @ 2025-05-27 12:39:48.703  (-49 h 15 min)
+    Beam Pulse Length = 5.0 us              @ 2025-05-27 12:39:48.703  (-49 h 15 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]       @ 13:54:50.697  (+1.005 s)
+      └─ → RF Systems = NOK   [= 0]         @ 13:54:50.693  (+1.000 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]   @ 13:54:50.691  (+0.998 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-29 14:11:26
+Duration : 50 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]    @ 14:11:26.696  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                   @ 2025-05-28 10:11:59.479  (-27 h 59 min)
+    Beam Destination = BeamDump         @ 2025-05-28 10:15:23.981  (-27 h 56 min)
+    Expected Current = 5.22732 mA       @ 13:56:27.398  (-14 min 59 s)
+    Beam Frequency = 1.0 Hz             @ 13:31:53.833  (-39 min 33 s)
+    RF Frequency = 1.0 Hz               @ 13:31:53.834  (-39 min 33 s)
+    Source Frequency = 1.0 Hz           @ 13:31:53.834  (-39 min 33 s)
+    Source Pulse Length = 6500.0 us     @ 2025-05-24 16:08:51.000  (-118 h 2 min)
+    LEBT Pulse Length = 24.0 us         @ 2025-05-27 12:39:48.703  (-49 h 31 min)
+    Beam Pulse Length = 5.0 us          @ 2025-05-27 12:39:48.703  (-49 h 31 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]   @ 14:11:27.699  (+1.003 s)
+      └─ → RF Systems = NOK   [= 0]     @ 14:11:27.696  (+1.000 s)
+         └─ → DTL-050 = NOK   [= 0]     @ 14:11:27.696  (+0.999 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-29 14:28:17
+Duration : 1 h 2 min 52 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]    @ 14:28:17.693  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                   @ 2025-05-28 10:11:59.479  (-28 h 16 min)
+    Beam Destination = BeamDump         @ 2025-05-28 10:15:23.981  (-28 h 12 min)
+    Expected Current = 5.22732 mA       @ 14:14:13.870  (-14 min 4 s)
+    Beam Frequency = 1.0 Hz             @ 13:31:53.833  (-56 min 24 s)
+    RF Frequency = 1.0 Hz               @ 13:31:53.834  (-56 min 24 s)
+    Source Frequency = 1.0 Hz           @ 13:31:53.834  (-56 min 24 s)
+    Source Pulse Length = 6500.0 us     @ 2025-05-24 16:08:51.000  (-118 h 19 min)
+    LEBT Pulse Length = 24.0 us         @ 2025-05-27 12:39:48.703  (-49 h 48 min)
+    Beam Pulse Length = 5.0 us          @ 2025-05-27 12:39:48.703  (-49 h 48 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]   @ 14:28:18.691  (+0.998 s)
+      └─ → RF Systems = NOK   [= 0]     @ 14:28:18.690  (+0.997 s)
+         └─ → RFQ-010 = NOK   [= 0]     @ 14:28:18.688  (+0.995 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-29 23:40:19
+Duration : 2 min 2 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]         @ 23:40:19.697  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                        @ 17:35:54.479  (-6 h 4 min)
+    Beam Destination = BeamDump              @ 17:35:52.480  (-6 h 4 min)
+    Expected Current = 5.22732 mA            @ 22:50:52.920  (-49 min 27 s)
+    Beam Frequency = 1.0 Hz                  @ 22:38:01.832  (-1 h 2 min)
+    RF Frequency = 1.0 Hz                    @ 22:38:01.832  (-1 h 2 min)
+    Source Frequency = 1.0 Hz                @ 22:38:01.832  (-1 h 2 min)
+    Source Pulse Length = 6500.0 us          @ 2025-05-24 16:08:51.000  (-127 h 31 min)
+    LEBT Pulse Length = 24.0 us              @ 17:35:38.694  (-6 h 4 min)
+    Beam Pulse Length = 5.0 us               @ 17:35:38.694  (-6 h 4 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]            @ 23:40:19.685  (-0.012 s)
+      └─ → BCM = NOK   [= 0]                 @ 23:40:19.682  (-0.014 s)
+         └─ → PBI-BCM01 = NOK   [= 0]        @ 23:40:19.681  (-0.015 s)
+            └─ → LEBT BCM 01 = NOK   [> 0]   @ 23:40:18.898  (-0.799 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-30 00:50:11
+Duration : 7 min 5 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]     @ 00:50:11.703  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                    @ 2025-05-29 17:35:54.479  (-7 h 14 min)
+    Beam Destination = BeamDump          @ 2025-05-29 17:35:52.480  (-7 h 14 min)
+    Expected Current = 5.22732 mA        @ 2025-05-29 23:43:49.130  (-1 h 6 min)
+    Beam Frequency = 1.0 Hz              @ 2025-05-29 22:38:01.832  (-2 h 12 min)
+    RF Frequency = 1.0 Hz                @ 2025-05-29 22:38:01.832  (-2 h 12 min)
+    Source Frequency = 1.0 Hz            @ 2025-05-29 22:38:01.832  (-2 h 12 min)
+    Source Pulse Length = 6500.0 us      @ 2025-05-24 16:08:51.000  (-128 h 41 min)
+    LEBT Pulse Length = 24.0 us          @ 2025-05-29 17:35:38.694  (-7 h 14 min)
+    Beam Pulse Length = 5.0 us           @ 2025-05-29 17:35:38.694  (-7 h 14 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]    @ 00:50:11.709  (+0.007 s)
+      └─ → RF Systems = NOK   [= 0]      @ 00:50:11.709  (+0.006 s)
+         ├─ → HBL-050 S1 = NOK   [= 0]   @ 00:50:11.702  (-0.000 s)
+         ├─ → HBL-050 S2 = NOK   [= 0]   @ 00:50:11.703  (-0.000 s)
+         ├─ → HBL-050 S3 = NOK   [= 0]   @ 00:50:11.703  (-0.000 s)
+         └─ → HBL-050 S4 = NOK   [= 0]   @ 00:50:11.703  (-0.000 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2025-05-30 02:50:46
+Duration : 1 min 43 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.09.30-001 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]    @ 02:50:46.694  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                   @ 2025-05-29 17:35:54.479  (-9 h 14 min)
+    Beam Destination = BeamDump         @ 2025-05-29 17:35:52.480  (-9 h 14 min)
+    Expected Current = 5.22732 mA       @ 00:58:22.099  (-1 h 52 min)
+    Beam Frequency = 1.0 Hz             @ 2025-05-29 22:38:01.832  (-4 h 12 min)
+    RF Frequency = 1.0 Hz               @ 2025-05-29 22:38:01.832  (-4 h 12 min)
+    Source Frequency = 1.0 Hz           @ 2025-05-29 22:38:01.832  (-4 h 12 min)
+    Source Pulse Length = 6500.0 us     @ 2025-05-24 16:08:51.000  (-130 h 41 min)
+    LEBT Pulse Length = 24.0 us         @ 2025-05-29 17:35:38.694  (-9 h 15 min)
+    Beam Pulse Length = 5.0 us          @ 2025-05-29 17:35:38.694  (-9 h 15 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]   @ 02:50:47.703  (+1.009 s)
+      └─ → RF Systems = NOK   [= 0]     @ 02:50:47.700  (+1.006 s)
+         └─ → DTL-020 = NOK   [= 0]     @ 02:50:47.699  (+1.005 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 01:17:14
+Duration : 2 min 29 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]    @ 01:17:14.662  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                   @ 01:16:00.427  (-1 min 14 s)
+    Beam Destination = BeamDump         @ 00:31:44.427  (-45 min 30 s)
+    Expected Current = 4.36033 mA       @ 00:35:21.352  (-41 min 53 s)
+    Beam Frequency = 1.0 Hz             @ 2026-06-06 18:17:55.713  (-6 h 59 min)
+    RF Frequency = 1.0 Hz               @ 2026-06-06 19:36:58.713  (-5 h 40 min)
+    Source Frequency = 1.0 Hz           @ 2026-06-06 14:56:30.713  (-10 h 20 min)
+    Source Pulse Length = 6500.0 us     @ 2026-06-03 09:11:29.447  (-88 h 5 min)
+    LEBT Pulse Length = 24.0 us         @ 01:16:12.642  (-1 min 2 s)
+    Beam Pulse Length = 5.0 us          @ 01:16:12.642  (-1 min 2 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]   @ 01:17:14.662  (-0.000 s)
+      └─ → RF Systems = NOK   [= 0]     @ 01:17:14.660  (-0.002 s)
+         └─ → DTL-010 = NOK   [= 0]     @ 01:17:14.658  (-0.004 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 01:22:28
+Duration : 1 min 41 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]            @ 01:22:28.665  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                           @ 01:16:00.427  (-6 min 28 s)
+    Beam Destination = BeamDump                 @ 00:31:44.427  (-50 min 44 s)
+    Expected Current = 4.36033 mA               @ 00:35:21.352  (-47 min 7 s)
+    Beam Frequency = 1.0 Hz                     @ 2026-06-06 18:17:55.713  (-7 h 4 min)
+    RF Frequency = 1.0 Hz                       @ 2026-06-06 19:36:58.713  (-5 h 45 min)
+    Source Frequency = 1.0 Hz                   @ 2026-06-06 14:56:30.713  (-10 h 25 min)
+    Source Pulse Length = 6500.0 us             @ 2026-06-03 09:11:29.447  (-88 h 10 min)
+    LEBT Pulse Length = 24.0 us                 @ 01:16:12.642  (-6 min 16 s)
+    Beam Pulse Length = 5.0 us                  @ 01:16:12.642  (-6 min 16 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]               @ 01:22:28.664  (-0.001 s)
+      └─ → Imaging Systems = NOK   [= 0]        @ 01:22:28.661  (-0.004 s)
+         └─ → DmpL-050 Img-002: = NOK   [= 0]   @ 01:22:28.659  (-0.006 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 01:41:43
+Duration : 1 min 18 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]            @ 01:41:43.660  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                           @ 01:16:00.427  (-25 min 43 s)
+    Beam Destination = BeamDump                 @ 00:31:44.427  (-1 h 9 min)
+    Expected Current = 5.15887 mA               @ 01:31:17.222  (-10 min 26 s)
+    Beam Frequency = 1.0 Hz                     @ 2026-06-06 18:17:55.713  (-7 h 23 min)
+    RF Frequency = 1.0 Hz                       @ 2026-06-06 19:36:58.713  (-6 h 4 min)
+    Source Frequency = 1.0 Hz                   @ 2026-06-06 14:56:30.713  (-10 h 45 min)
+    Source Pulse Length = 6500.0 us             @ 2026-06-03 09:11:29.447  (-88 h 30 min)
+    LEBT Pulse Length = 24.0 us                 @ 01:16:12.642  (-25 min 31 s)
+    Beam Pulse Length = 5.0 us                  @ 01:16:12.642  (-25 min 31 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]               @ 01:41:43.659  (-0.001 s)
+      └─ → Imaging Systems = NOK   [= 0]        @ 01:41:43.658  (-0.002 s)
+         └─ → DmpL-050 Img-002: = NOK   [= 0]   @ 01:41:43.656  (-0.004 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 01:43:35
+Duration : 28 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]            @ 01:43:35.663  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                           @ 01:16:00.427  (-27 min 35 s)
+    Beam Destination = BeamDump                 @ 00:31:44.427  (-1 h 11 min)
+    Expected Current = 5.15887 mA               @ 01:31:17.222  (-12 min 18 s)
+    Beam Frequency = 1.0 Hz                     @ 2026-06-06 18:17:55.713  (-7 h 25 min)
+    RF Frequency = 1.0 Hz                       @ 2026-06-06 19:36:58.713  (-6 h 6 min)
+    Source Frequency = 1.0 Hz                   @ 2026-06-06 14:56:30.713  (-10 h 47 min)
+    Source Pulse Length = 6500.0 us             @ 2026-06-03 09:11:29.447  (-88 h 32 min)
+    LEBT Pulse Length = 24.0 us                 @ 01:16:12.642  (-27 min 23 s)
+    Beam Pulse Length = 5.0 us                  @ 01:16:12.642  (-27 min 23 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]               @ 01:43:35.662  (-0.002 s)
+      └─ → Imaging Systems = NOK   [= 0]        @ 01:43:35.660  (-0.003 s)
+         └─ → DmpL-050 Img-002: = NOK   [= 0]   @ 01:43:35.659  (-0.005 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 01:46:14
+Duration : 1 min 40 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]            @ 01:46:14.671  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                           @ 01:16:00.427  (-30 min 14 s)
+    Beam Destination = BeamDump                 @ 00:31:44.427  (-1 h 14 min)
+    Expected Current = 5.15887 mA               @ 01:31:17.222  (-14 min 57 s)
+    Beam Frequency = 1.0 Hz                     @ 2026-06-06 18:17:55.713  (-7 h 28 min)
+    RF Frequency = 1.0 Hz                       @ 2026-06-06 19:36:58.713  (-6 h 9 min)
+    Source Frequency = 1.0 Hz                   @ 2026-06-06 14:56:30.713  (-10 h 49 min)
+    Source Pulse Length = 6500.0 us             @ 2026-06-03 09:11:29.447  (-88 h 34 min)
+    LEBT Pulse Length = 24.0 us                 @ 01:16:12.642  (-30 min 2 s)
+    Beam Pulse Length = 5.0 us                  @ 01:16:12.642  (-30 min 2 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]               @ 01:46:14.669  (-0.001 s)
+      └─ → Imaging Systems = NOK   [= 0]        @ 01:46:14.669  (-0.002 s)
+         └─ → DmpL-050 Img-002: = NOK   [= 0]   @ 01:46:14.664  (-0.007 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 01:50:00
+Duration : 1 min 14 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                   @ 01:50:00.662  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                  @ 01:16:00.427  (-34 min 0 s)
+    Beam Destination = BeamDump                        @ 00:31:44.427  (-1 h 18 min)
+    Expected Current = 5.15887 mA                      @ 01:31:17.222  (-18 min 43 s)
+    Beam Frequency = 1.0 Hz                            @ 2026-06-06 18:17:55.713  (-7 h 32 min)
+    RF Frequency = 1.0 Hz                              @ 2026-06-06 19:36:58.713  (-6 h 13 min)
+    Source Frequency = 1.0 Hz                          @ 2026-06-06 14:56:30.713  (-10 h 53 min)
+    Source Pulse Length = 6500.0 us                    @ 2026-06-03 09:11:29.447  (-88 h 38 min)
+    LEBT Pulse Length = 24.0 us                        @ 01:16:12.642  (-33 min 48 s)
+    Beam Pulse Length = 5.0 us                         @ 01:16:12.642  (-33 min 48 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                      @ 01:50:00.667  (+0.005 s)
+      └─ → Aperture Monitors = NOK   [= 0]             @ 01:50:00.667  (+0.005 s)
+         └─ → DmpL-050Drf:PBI-AptM-001 = NOK   [= 0]   @ 01:50:00.654  (-0.008 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 01:51:23
+Duration : 7 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 01:51:23.665  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                              @ 01:16:00.427  (-35 min 23 s)
+    Beam Destination = BeamDump                                    @ 00:31:44.427  (-1 h 19 min)
+    Expected Current = 5.15887 mA                                  @ 01:31:17.222  (-20 min 6 s)
+    Beam Frequency = 1.0 Hz                                        @ 2026-06-06 18:17:55.713  (-7 h 33 min)
+    RF Frequency = 1.0 Hz                                          @ 2026-06-06 19:36:58.713  (-6 h 14 min)
+    Source Frequency = 1.0 Hz                                      @ 2026-06-06 14:56:30.713  (-10 h 54 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-03 09:11:29.447  (-88 h 39 min)
+    LEBT Pulse Length = 24.0 us                                    @ 01:16:12.642  (-35 min 11 s)
+    Beam Pulse Length = 5.0 us                                     @ 01:16:12.642  (-35 min 11 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 01:51:25.653  (+1.988 s)
+      ├─ → BPM = NOK   [= 0]                                       @ 01:51:25.650  (+1.985 s)
+      │  ├─ → BPM03-AMC-110 (SPK-060 BPM 1/SPK-070 BPM 1) = NOK   [= 0]   @ 01:51:25.649  (+1.984 s)
+      │  ├─ → BPM03-AMC-120 (SPK-080 BPM 1/SPK-090 BPM 1) = NOK   [= 0]   @ 01:51:25.649  (+1.984 s)
+      │  ├─ → BPM03-AMC-130 (SPK-100 BPM 1/SPK-110 BPM 1) = NOK   [= 0]   @ 01:51:25.649  (+1.984 s)
+      │  └─ → BPM03-AMC-140 (SPK-120 BPM 1/SPK-130 BPM 1) = NOK   [= 0]   @ 01:51:25.650  (+1.985 s)
+      └─ → BLM = NOK   [= 0]                                       @ 01:51:25.662  (+1.997 s)
+         ├─ → nBLM05-AMC-110 = NOK   [= 0]                         @ 01:51:25.658  (+1.993 s)
+         ├─ → nBLM05-AMC-120 = NOK   [= 0]                         @ 01:51:25.658  (+1.993 s)
+         ├─ → nBLM05-AMC-130 = NOK   [= 0]                         @ 01:51:25.658  (+1.993 s)
+         ├─ → ICBLM02-AMC-110 = NOK   [= 0]                        @ 01:51:25.659  (+1.994 s)
+         ├─ → ICBLM02-AMC-120 = NOK   [= 0]                        @ 01:51:25.659  (+1.994 s)
+         ├─ → ICBLM02-AMC-130 = NOK   [= 0]                        @ 01:51:25.659  (+1.994 s)
+         ├─ → nBLM06-AMC-110 = NOK   [= 0]                         @ 01:51:25.659  (+1.994 s)
+         ├─ → nBLM06-AMC-120 = NOK   [= 0]                         @ 01:51:25.660  (+1.995 s)
+         ├─ → ICBLM03-AMC-110 = NOK   [= 0]                        @ 01:51:25.660  (+1.995 s)
+         ├─ → ICBLM03-AMC-120 = NOK   [= 0]                        @ 01:51:25.660  (+1.995 s)
+         ├─ → ICBLM03-AMC-210 = NOK   [= 0]                        @ 01:51:25.660  (+1.995 s)
+         └─ → ICBLM03-AMC-220 = NOK   [= 0]                        @ 01:51:25.660  (+1.995 s)
+  → Accelerator Systems = NOK   [= 0]                              @ 01:51:25.676  (+2.011 s)
+      └─ → RF Systems = NOK   [= 0]                                @ 01:51:25.674  (+2.009 s)
+         ├─ → Spk-030 S1 = NOK   [= 0]                             @ 01:51:25.665  (+2.000 s)
+         ├─ → Spk-030 S2 = NOK   [= 0]                             @ 01:51:25.665  (+2.000 s)
+         ├─ → Spk-040 S1 = NOK   [= 0]                             @ 01:51:25.665  (+2.001 s)
+         ├─ → Spk-040 S2 = NOK   [= 0]                             @ 01:51:25.666  (+2.001 s)
+         ├─ → Spk-050 S1 = NOK   [= 0]                             @ 01:51:25.666  (+2.001 s)
+         ├─ → Spk-050 S2 = NOK   [= 0]                             @ 01:51:25.666  (+2.001 s)
+         ├─ → Spk-060 S1 = NOK   [= 0]                             @ 01:51:25.667  (+2.002 s)
+         ├─ → Spk-060 S2 = NOK   [= 0]                             @ 01:51:25.667  (+2.002 s)
+         ├─ → Spk-070 S1 = NOK   [= 0]                             @ 01:51:25.671  (+2.006 s)
+         ├─ → Spk-070 S2 = NOK   [= 0]                             @ 01:51:25.672  (+2.007 s)
+         ├─ → Spk-080 S1 = NOK   [= 0]                             @ 01:51:25.672  (+2.007 s)
+         ├─ → Spk-080 S2 = NOK   [= 0]                             @ 01:51:25.672  (+2.007 s)
+         ├─ → Spk-090 S1 = NOK   [= 0]                             @ 01:51:25.672  (+2.007 s)
+         ├─ → Spk-090 S2 = NOK   [= 0]                             @ 01:51:25.672  (+2.007 s)
+         ├─ → Spk-100 S1 = NOK   [= 0]                             @ 01:51:25.673  (+2.008 s)
+         ├─ → Spk-100 S2 = NOK   [= 0]                             @ 01:51:25.673  (+2.008 s)
+         ├─ → Spk-110 S1 = NOK   [= 0]                             @ 01:51:25.673  (+2.008 s)
+         ├─ → Spk-110 S2 = NOK   [= 0]                             @ 01:51:25.673  (+2.008 s)
+         ├─ → Spk-120 S1 = NOK   [= 0]                             @ 01:51:25.673  (+2.008 s)
+         ├─ → Spk-120 S2 = NOK   [= 0]                             @ 01:51:25.673  (+2.008 s)
+         ├─ → Spk-130 S1 = NOK   [= 0]                             @ 01:51:25.674  (+2.009 s)
+         └─ → Spk-130 S2 = NOK   [= 0]                             @ 01:51:25.674  (+2.009 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 01:55:48
+Duration : 27 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]            @ 01:55:48.661  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                           @ 01:16:00.427  (-39 min 48 s)
+    Beam Destination = BeamDump                 @ 00:31:44.427  (-1 h 24 min)
+    Expected Current = 5.15887 mA               @ 01:31:17.222  (-24 min 31 s)
+    Beam Frequency = 1.0 Hz                     @ 2026-06-06 18:17:55.713  (-7 h 37 min)
+    RF Frequency = 1.0 Hz                       @ 2026-06-06 19:36:58.713  (-6 h 18 min)
+    Source Frequency = 1.0 Hz                   @ 2026-06-06 14:56:30.713  (-10 h 59 min)
+    Source Pulse Length = 6500.0 us             @ 2026-06-03 09:11:29.447  (-88 h 44 min)
+    LEBT Pulse Length = 24.0 us                 @ 01:16:12.642  (-39 min 36 s)
+    Beam Pulse Length = 5.0 us                  @ 01:16:12.642  (-39 min 36 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]               @ 01:55:48.661  (-0.000 s)
+      └─ → Imaging Systems = NOK   [= 0]        @ 01:55:48.660  (-0.001 s)
+         └─ → DmpL-050 Img-002: = NOK   [= 0]   @ 01:55:48.660  (-0.001 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 02:01:11
+Duration : 1 min 5 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 02:01:11.664  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                              @ 01:16:00.427  (-45 min 11 s)
+    Beam Destination = BeamDump                                    @ 00:31:44.427  (-1 h 29 min)
+    Expected Current = 5.15887 mA                                  @ 01:31:17.222  (-29 min 54 s)
+    Beam Frequency = 1.0 Hz                                        @ 2026-06-06 18:17:55.713  (-7 h 43 min)
+    RF Frequency = 1.0 Hz                                          @ 2026-06-06 19:36:58.713  (-6 h 24 min)
+    Source Frequency = 1.0 Hz                                      @ 2026-06-06 14:56:30.713  (-11 h 4 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-03 09:11:29.447  (-88 h 49 min)
+    LEBT Pulse Length = 24.0 us                                    @ 01:16:12.642  (-44 min 59 s)
+    Beam Pulse Length = 5.0 us                                     @ 01:16:12.642  (-44 min 59 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 02:01:11.656  (-0.007 s)
+      └─ → BPM = NOK   [= 0]                                       @ 02:01:11.654  (-0.009 s)
+         └─ → BPM14-AMC-230 (DmpL-030 QC BPM 1/DmpL-040 Drf BPM 1) = NOK   [= 0]   @ 02:01:11.653  (-0.010 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 02:02:50
+Duration : 1 min 21 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 02:02:50.674  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                              @ 01:16:00.427  (-46 min 50 s)
+    Beam Destination = BeamDump                                    @ 00:31:44.427  (-1 h 31 min)
+    Expected Current = 5.15887 mA                                  @ 01:31:17.222  (-31 min 33 s)
+    Beam Frequency = 1.0 Hz                                        @ 02:02:31.711  (-18.962 s)
+    RF Frequency = 1.0 Hz                                          @ 2026-06-06 19:36:58.713  (-6 h 25 min)
+    Source Frequency = 1.0 Hz                                      @ 2026-06-06 14:56:30.713  (-11 h 6 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-03 09:11:29.447  (-88 h 51 min)
+    LEBT Pulse Length = 24.0 us                                    @ 02:02:30.642  (-20.032 s)
+    Beam Pulse Length = 5.0 us                                     @ 02:02:30.642  (-20.032 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 02:02:50.657  (-0.017 s)
+      └─ → BPM = NOK   [= 0]                                       @ 02:02:50.655  (-0.019 s)
+         └─ → BPM08-AMC-110 (HBL-080 BPM 1/HBL-090 BPM 1) = NOK   [= 0]   @ 02:02:50.655  (-0.019 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 02:06:41
+Duration : 1 min 17 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 02:06:41.659  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                              @ 01:16:00.427  (-50 min 41 s)
+    Beam Destination = BeamDump                                    @ 00:31:44.427  (-1 h 34 min)
+    Expected Current = 5.15887 mA                                  @ 01:31:17.222  (-35 min 24 s)
+    Beam Frequency = 1.0 Hz                                        @ 02:04:17.711  (-2 min 24 s)
+    RF Frequency = 1.0 Hz                                          @ 2026-06-06 19:36:58.713  (-6 h 29 min)
+    Source Frequency = 1.0 Hz                                      @ 2026-06-06 14:56:30.713  (-11 h 10 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-03 09:11:29.447  (-88 h 55 min)
+    LEBT Pulse Length = 24.0 us                                    @ 02:04:16.642  (-2 min 25 s)
+    Beam Pulse Length = 5.0 us                                     @ 02:04:16.642  (-2 min 25 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 02:06:41.655  (-0.004 s)
+      └─ → BPM = NOK   [= 0]                                       @ 02:06:41.653  (-0.006 s)
+         └─ → BPM07-AMC-110 (HBL-040 BPM 1/HBL-050 BPM 1) = NOK   [= 0]   @ 02:06:41.653  (-0.006 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 02:14:27
+Duration : 1 min 58 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 02:14:27.661  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                              @ 01:16:00.427  (-58 min 27 s)
+    Beam Destination = BeamDump                                    @ 00:31:44.427  (-1 h 42 min)
+    Expected Current = 5.15887 mA                                  @ 01:31:17.222  (-43 min 10 s)
+    Beam Frequency = 1.0 Hz                                        @ 02:04:17.711  (-10 min 10 s)
+    RF Frequency = 1.0 Hz                                          @ 2026-06-06 19:36:58.713  (-6 h 37 min)
+    Source Frequency = 1.0 Hz                                      @ 2026-06-06 14:56:30.713  (-11 h 17 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-03 09:11:29.447  (-89 h 2 min)
+    LEBT Pulse Length = 24.0 us                                    @ 02:04:16.642  (-10 min 11 s)
+    Beam Pulse Length = 5.0 us                                     @ 02:04:16.642  (-10 min 11 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 02:14:27.654  (-0.007 s)
+      └─ → BPM = NOK   [= 0]                                       @ 02:14:27.653  (-0.008 s)
+         └─ → BPM14-AMC-230 (DmpL-030 QC BPM 1/DmpL-040 Drf BPM 1) = NOK   [= 0]   @ 02:14:27.651  (-0.010 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 02:16:32
+Duration : 1 min 17 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 02:16:32.661  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                              @ 01:16:00.427  (-1 h 0 min)
+    Beam Destination = BeamDump                                    @ 00:31:44.427  (-1 h 44 min)
+    Expected Current = 5.15887 mA                                  @ 01:31:17.222  (-45 min 15 s)
+    Beam Frequency = 1.0 Hz                                        @ 02:16:31.711  (-0.950 s)
+    RF Frequency = 1.0 Hz                                          @ 2026-06-06 19:36:58.713  (-6 h 39 min)
+    Source Frequency = 1.0 Hz                                      @ 2026-06-06 14:56:30.713  (-11 h 20 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-03 09:11:29.447  (-89 h 5 min)
+    LEBT Pulse Length = 24.0 us                                    @ 02:16:30.642  (-2.019 s)
+    Beam Pulse Length = 5.0 us                                     @ 02:16:30.642  (-2.019 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 02:16:32.654  (-0.008 s)
+      └─ → BPM = NOK   [= 0]                                       @ 02:16:32.652  (-0.009 s)
+         └─ → BPM14-AMC-230 (DmpL-030 QC BPM 1/DmpL-040 Drf BPM 1) = NOK   [= 0]   @ 02:16:32.651  (-0.010 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 02:26:41
+Duration : 45 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 02:26:41.662  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                              @ 01:16:00.427  (-1 h 10 min)
+    Beam Destination = BeamDump                                    @ 00:31:44.427  (-1 h 54 min)
+    Expected Current = 5.15887 mA                                  @ 01:31:17.222  (-55 min 24 s)
+    Beam Frequency = 1.0 Hz                                        @ 02:17:55.711  (-8 min 46 s)
+    RF Frequency = 1.0 Hz                                          @ 2026-06-06 19:36:58.713  (-6 h 49 min)
+    Source Frequency = 1.0 Hz                                      @ 2026-06-06 14:56:30.713  (-11 h 30 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-03 09:11:29.447  (-89 h 15 min)
+    LEBT Pulse Length = 24.0 us                                    @ 02:17:54.642  (-8 min 47 s)
+    Beam Pulse Length = 5.0 us                                     @ 02:17:54.642  (-8 min 47 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 02:26:41.654  (-0.009 s)
+      └─ → BPM = NOK   [= 0]                                       @ 02:26:41.652  (-0.010 s)
+         └─ → BPM13-AMC-220 (DmpL-010 BPM 1/DmpL-020 BPM 1) = NOK   [= 0]   @ 02:26:41.652  (-0.010 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 02:27:37
+Duration : 56 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 02:27:37.659  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                              @ 01:16:00.427  (-1 h 11 min)
+    Beam Destination = BeamDump                                    @ 00:31:44.427  (-1 h 55 min)
+    Expected Current = 5.15887 mA                                  @ 01:31:17.222  (-56 min 20 s)
+    Beam Frequency = 1.0 Hz                                        @ 02:27:33.711  (-3.948 s)
+    RF Frequency = 1.0 Hz                                          @ 2026-06-06 19:36:58.713  (-6 h 50 min)
+    Source Frequency = 1.0 Hz                                      @ 2026-06-06 14:56:30.713  (-11 h 31 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-03 09:11:29.447  (-89 h 16 min)
+    LEBT Pulse Length = 24.0 us                                    @ 02:27:32.642  (-5.017 s)
+    Beam Pulse Length = 5.0 us                                     @ 02:27:32.642  (-5.017 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 02:27:37.653  (-0.006 s)
+      └─ → BPM = NOK   [= 0]                                       @ 02:27:37.651  (-0.008 s)
+         └─ → BPM13-AMC-220 (DmpL-010 BPM 1/DmpL-020 BPM 1) = NOK   [= 0]   @ 02:27:37.651  (-0.008 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 04:11:00
+Duration : 3 min 36 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 04:11:00.660  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                              @ 01:16:00.427  (-2 h 55 min)
+    Beam Destination = BeamDump                                    @ 00:31:44.427  (-3 h 39 min)
+    Expected Current = 5.15887 mA                                  @ 01:31:17.222  (-2 h 39 min)
+    Beam Frequency = 1.0 Hz                                        @ 02:28:37.711  (-1 h 42 min)
+    RF Frequency = 1.0 Hz                                          @ 2026-06-06 19:36:58.713  (-8 h 34 min)
+    Source Frequency = 1.0 Hz                                      @ 2026-06-06 14:56:30.713  (-13 h 14 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-03 09:11:29.447  (-90 h 59 min)
+    LEBT Pulse Length = 24.0 us                                    @ 02:28:36.642  (-1 h 42 min)
+    Beam Pulse Length = 5.0 us                                     @ 02:28:36.642  (-1 h 42 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 04:11:00.654  (-0.006 s)
+      └─ → BPM = NOK   [= 0]                                       @ 04:11:00.651  (-0.009 s)
+         └─ → BPM12-AMC-120 (HEBT-070 BPM 1/ HEBT-080 BPM 1) = NOK   [= 0]   @ 04:11:00.650  (-0.010 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 04:25:29
+Duration : 1 min 37 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 04:25:29.660  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                              @ 01:16:00.427  (-3 h 9 min)
+    Beam Destination = BeamDump                                    @ 00:31:44.427  (-3 h 53 min)
+    Expected Current = 5.15887 mA                                  @ 01:31:17.222  (-2 h 54 min)
+    Beam Frequency = 1.0 Hz                                        @ 04:14:41.711  (-10 min 48 s)
+    RF Frequency = 1.0 Hz                                          @ 2026-06-06 19:36:58.713  (-8 h 48 min)
+    Source Frequency = 1.0 Hz                                      @ 2026-06-06 14:56:30.713  (-13 h 28 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-03 09:11:29.447  (-91 h 14 min)
+    LEBT Pulse Length = 24.0 us                                    @ 04:14:40.642  (-10 min 49 s)
+    Beam Pulse Length = 5.0 us                                     @ 04:14:40.642  (-10 min 49 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 04:25:29.660  (-0.000 s)
+      └─ → BPM = NOK   [= 0]                                       @ 04:25:29.659  (-0.001 s)
+         └─ → BPM12-AMC-120 (HEBT-070 BPM 1/ HEBT-080 BPM 1) = NOK   [= 0]   @ 04:25:29.650  (-0.010 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 07:03:39
+Duration : 3 min 35 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 07:03:39.660  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                              @ 01:16:00.427  (-5 h 47 min)
+    Beam Destination = BeamDump                                    @ 00:31:44.427  (-6 h 31 min)
+    Expected Current = 5.15887 mA                                  @ 01:31:17.222  (-5 h 32 min)
+    Beam Frequency = 1.0 Hz                                        @ 04:27:13.711  (-2 h 36 min)
+    RF Frequency = 1.0 Hz                                          @ 2026-06-06 19:36:58.713  (-11 h 26 min)
+    Source Frequency = 1.0 Hz                                      @ 2026-06-06 14:56:30.713  (-16 h 7 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-03 09:11:29.447  (-93 h 52 min)
+    LEBT Pulse Length = 24.0 us                                    @ 04:27:12.642  (-2 h 36 min)
+    Beam Pulse Length = 5.0 us                                     @ 04:27:12.642  (-2 h 36 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 07:03:39.654  (-0.006 s)
+      └─ → BPM = NOK   [= 0]                                       @ 07:03:39.652  (-0.008 s)
+         └─ → BPM13-AMC-130 (HEBT-150 BPM 1/HEBT-160 BPM 1) = NOK   [= 0]   @ 07:03:39.650  (-0.009 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 08:48:46
+Duration : 1 min 39 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 08:48:46.661  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                              @ 01:16:00.427  (-7 h 32 min)
+    Beam Destination = BeamDump                                    @ 00:31:44.427  (-8 h 17 min)
+    Expected Current = 5.15887 mA                                  @ 01:31:17.222  (-7 h 17 min)
+    Beam Frequency = 1.0 Hz                                        @ 08:35:35.710  (-13 min 11 s)
+    RF Frequency = 1.0 Hz                                          @ 2026-06-06 19:36:58.713  (-13 h 11 min)
+    Source Frequency = 1.0 Hz                                      @ 2026-06-06 14:56:30.713  (-17 h 52 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-03 09:11:29.447  (-95 h 37 min)
+    LEBT Pulse Length = 24.0 us                                    @ 07:07:24.641  (-1 h 41 min)
+    Beam Pulse Length = 5.0 us                                     @ 07:07:24.641  (-1 h 41 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 08:48:46.654  (-0.007 s)
+      └─ → BPM = NOK   [= 0]                                       @ 08:48:46.652  (-0.009 s)
+         └─ → BPM13-AMC-130 (HEBT-150 BPM 1/HEBT-160 BPM 1) = NOK   [= 0]   @ 08:48:46.652  (-0.009 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 08:58:21
+Duration : 4 min 33 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 08:58:21.666  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                              @ 01:16:00.427  (-7 h 42 min)
+    Beam Destination = BeamDump                                    @ 00:31:44.427  (-8 h 26 min)
+    Expected Current = 5.15887 mA                                  @ 01:31:17.222  (-7 h 27 min)
+    Beam Frequency = 1.0 Hz                                        @ 08:50:33.710  (-7 min 48 s)
+    RF Frequency = 1.0 Hz                                          @ 2026-06-06 19:36:58.713  (-13 h 21 min)
+    Source Frequency = 1.0 Hz                                      @ 2026-06-06 14:56:30.713  (-18 h 1 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-03 09:11:29.447  (-95 h 46 min)
+    LEBT Pulse Length = 24.0 us                                    @ 08:50:32.641  (-7 min 49 s)
+    Beam Pulse Length = 5.0 us                                     @ 08:50:32.641  (-7 min 49 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 08:58:21.656  (-0.010 s)
+      ├─ → BCM = NOK   [= 0]                                       @ 08:58:21.654  (-0.012 s)
+      │  └─ → PBI-BCM01 = NOK   [= 0]                              @ 08:58:21.652  (-0.014 s)
+      │     ├─ → LEBT BCM 01 = NOK   [> 0]                         @ 08:58:20.776  (-0.890 s)
+      │     └─ → LEBT BCM 210 (RDNT) = NOK   [> 0]                 @ 08:58:20.732  (-0.934 s)
+      └─ → BPM = NOK   [= 0]                                       @ 08:58:21.656  (-0.010 s)
+         ├─ → BPM01-AMC-110 (MEBT BPM1/2) = NOK   [= 0]            @ 08:58:21.654  (-0.012 s)
+         ├─ → BPM01-AMC-120 (MEBT BPM 3/5) = NOK   [= 0]           @ 08:58:21.654  (-0.012 s)
+         ├─ → BPM01-AMC-130 (MEBT BPM 6/7) = NOK   [= 0]           @ 08:58:21.654  (-0.012 s)
+         ├─ → BPM01-AMC-140 (MEBT BPM 8 / DTL-010 BPM 1) = NOK   [= 0]   @ 08:58:21.654  (-0.012 s)
+         ├─ → BPM01-AMC-210 (DTL-010 BPM 2/3) = NOK   [= 0]        @ 08:58:21.654  (-0.012 s)
+         ├─ → BPM01-AMC-230 (DTL-010 BPM 6/ DTL-020 BPM 1) = NOK   [= 0]   @ 08:58:21.654  (-0.012 s)
+         ├─ → BPM02-AMC-110 (DTL-030 BPM 1/2) = NOK   [= 0]        @ 08:58:21.654  (-0.012 s)
+         ├─ → BPM02-AMC-120 (DTL-040 BPM 1/2) = NOK   [= 0]        @ 08:58:21.654  (-0.012 s)
+         └─ → BPM02-AMC-130 (DTL-050 BPM 1/2) = NOK   [= 0]        @ 08:58:21.656  (-0.010 s)
+  → Accelerator Systems = NOK   [= 0]                              @ 08:58:21.663  (-0.003 s)
+      └─ → RF Systems = NOK   [= 0]                                @ 08:58:21.662  (-0.004 s)
+         └─ → RFQ-010 = NOK   [= 0]                                @ 08:58:21.662  (-0.004 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 09:32:42
+Duration : 1 min 23 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 09:32:42.662  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                              @ 01:16:00.427  (-8 h 16 min)
+    Beam Destination = BeamDump                                    @ 00:31:44.427  (-9 h 0 min)
+    Expected Current = 5.15887 mA                                  @ 01:31:17.222  (-8 h 1 min)
+    Beam Frequency = 1.0 Hz                                        @ 09:03:09.710  (-29 min 33 s)
+    RF Frequency = 1.0 Hz                                          @ 2026-06-06 19:36:58.713  (-13 h 55 min)
+    Source Frequency = 1.0 Hz                                      @ 09:08:46.710  (-23 min 56 s)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-03 09:11:29.447  (-96 h 21 min)
+    LEBT Pulse Length = 24.0 us                                    @ 09:03:08.640  (-29 min 34 s)
+    Beam Pulse Length = 5.0 us                                     @ 09:03:08.641  (-29 min 34 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 09:32:42.654  (-0.009 s)
+      └─ → BPM = NOK   [= 0]                                       @ 09:32:42.651  (-0.011 s)
+         └─ → BPM13-AMC-220 (DmpL-010 BPM 1/DmpL-020 BPM 1) = NOK   [= 0]   @ 09:32:42.651  (-0.011 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 10:07:17
+Duration : 13 min 7 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]    @ 10:07:17.663  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                   @ 01:16:00.427  (-8 h 51 min)
+    Beam Destination = BeamDump         @ 00:31:44.427  (-9 h 35 min)
+    Expected Current = 5.15887 mA       @ 01:31:17.222  (-8 h 36 min)
+    Beam Frequency = 1.0 Hz             @ 09:34:13.710  (-33 min 4 s)
+    RF Frequency = 1.0 Hz               @ 2026-06-06 19:36:58.713  (-14 h 30 min)
+    Source Frequency = 1.0 Hz           @ 09:08:46.710  (-58 min 31 s)
+    Source Pulse Length = 6500.0 us     @ 2026-06-03 09:11:29.447  (-96 h 55 min)
+    LEBT Pulse Length = 24.0 us         @ 09:34:12.642  (-33 min 5 s)
+    Beam Pulse Length = 5.0 us          @ 09:34:12.642  (-33 min 5 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]   @ 10:07:17.665  (+0.002 s)
+      └─ → RF Systems = NOK   [= 0]     @ 10:07:17.664  (+0.000 s)
+         └─ → DTL-010 = NOK   [= 0]     @ 10:07:17.662  (-0.001 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 10:56:51
+Duration : 12 min 17 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 10:56:51.664  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                              @ 01:16:00.427  (-9 h 40 min)
+    Beam Destination = BeamDump                                    @ 00:31:44.427  (-10 h 25 min)
+    Expected Current = 5.15887 mA                                  @ 01:31:17.222  (-9 h 25 min)
+    Beam Frequency = 1.0 Hz                                        @ 10:20:41.710  (-36 min 10 s)
+    RF Frequency = 1.0 Hz                                          @ 2026-06-06 19:36:58.713  (-15 h 19 min)
+    Source Frequency = 1.0 Hz                                      @ 09:08:46.710  (-1 h 48 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-03 09:11:29.447  (-97 h 45 min)
+    LEBT Pulse Length = 24.0 us                                    @ 10:20:40.641  (-36 min 11 s)
+    Beam Pulse Length = 5.0 us                                     @ 10:20:40.641  (-36 min 11 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 10:56:51.664  (+0.000 s)
+      └─ → BPM = NOK   [= 0]                                       @ 10:56:51.658  (-0.006 s)
+         ├─ → BPM01-AMC-110 (MEBT BPM1/2) = NOK   [= 0]            @ 10:56:51.651  (-0.013 s)
+         ├─ → BPM01-AMC-120 (MEBT BPM 3/5) = NOK   [= 0]           @ 10:56:51.651  (-0.013 s)
+         ├─ → BPM01-AMC-130 (MEBT BPM 6/7) = NOK   [= 0]           @ 10:56:51.651  (-0.013 s)
+         ├─ → BPM01-AMC-140 (MEBT BPM 8 / DTL-010 BPM 1) = NOK   [= 0]   @ 10:56:51.651  (-0.013 s)
+         ├─ → BPM01-AMC-220 (DTL-010 BPM 4/5) = NOK   [= 0]        @ 10:56:51.652  (-0.012 s)
+         ├─ → BPM01-AMC-240 (DTL-020 BPM 2/3) = NOK   [= 0]        @ 10:56:51.657  (-0.006 s)
+         ├─ → BPM02-AMC-120 (DTL-040 BPM 1/2) = NOK   [= 0]        @ 10:56:51.657  (-0.006 s)
+         └─ → BPM02-AMC-130 (DTL-050 BPM 1/2) = NOK   [= 0]        @ 10:56:51.657  (-0.006 s)
+  → Accelerator Systems = NOK   [= 0]                              @ 10:56:51.665  (+0.002 s)
+      └─ → RF Systems = NOK   [= 0]                                @ 10:56:51.665  (+0.001 s)
+         └─ → MEBT Buncher1 = NOK   [= 0]                          @ 10:56:51.658  (-0.006 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 14:17:29
+Duration : 3 min 50 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 14:17:29.660  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                              @ 01:16:00.427  (-13 h 1 min)
+    Beam Destination = BeamDump                                    @ 00:31:44.427  (-13 h 45 min)
+    Expected Current = 5.15887 mA                                  @ 01:31:17.222  (-12 h 46 min)
+    Beam Frequency = 1.0 Hz                                        @ 11:09:21.710  (-3 h 8 min)
+    RF Frequency = 1.0 Hz                                          @ 13:49:14.710  (-28 min 15 s)
+    Source Frequency = 1.0 Hz                                      @ 09:08:46.710  (-5 h 8 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-03 09:11:29.447  (-101 h 6 min)
+    LEBT Pulse Length = 24.0 us                                    @ 11:09:20.640  (-3 h 8 min)
+    Beam Pulse Length = 5.0 us                                     @ 11:09:20.640  (-3 h 8 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 14:17:29.654  (-0.007 s)
+      └─ → BPM = NOK   [= 0]                                       @ 14:17:29.652  (-0.009 s)
+         └─ → BPM13-AMC-220 (DmpL-010 BPM 1/DmpL-020 BPM 1) = NOK   [= 0]   @ 14:17:29.651  (-0.010 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 17:53:16
+Duration : 17 min 23 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 17:53:16.666  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                              @ 01:16:00.427  (-16 h 37 min)
+    Beam Destination = BeamDump                                    @ 00:31:44.427  (-17 h 21 min)
+    Expected Current = 5.15887 mA                                  @ 01:31:17.222  (-16 h 21 min)
+    Beam Frequency = 1.0 Hz                                        @ 14:21:27.709  (-3 h 31 min)
+    RF Frequency = 1.0 Hz                                          @ 13:49:14.710  (-4 h 4 min)
+    Source Frequency = 1.0 Hz                                      @ 09:08:46.710  (-8 h 44 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-03 09:11:29.447  (-104 h 41 min)
+    LEBT Pulse Length = 24.0 us                                    @ 14:21:26.640  (-3 h 31 min)
+    Beam Pulse Length = 5.0 us                                     @ 14:21:26.640  (-3 h 31 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 17:53:16.655  (-0.011 s)
+      ├─ → BCM = NOK   [= 0]                                       @ 17:53:16.654  (-0.012 s)
+      │  └─ → PBI-BCM01 = NOK   [= 0]                              @ 17:53:16.649  (-0.017 s)
+      └─ → BPM = NOK   [= 0]                                       @ 17:53:16.654  (-0.011 s)
+         ├─ → BPM01-AMC-120 (MEBT BPM 3/5) = NOK   [= 0]           @ 17:53:16.649  (-0.017 s)
+         ├─ → BPM01-AMC-130 (MEBT BPM 6/7) = NOK   [= 0]           @ 17:53:16.649  (-0.017 s)
+         ├─ → BPM01-AMC-140 (MEBT BPM 8 / DTL-010 BPM 1) = NOK   [= 0]   @ 17:53:16.649  (-0.016 s)
+         ├─ → BPM01-AMC-210 (DTL-010 BPM 2/3) = NOK   [= 0]        @ 17:53:16.650  (-0.015 s)
+         ├─ → BPM01-AMC-240 (DTL-020 BPM 2/3) = NOK   [= 0]        @ 17:53:16.650  (-0.015 s)
+         ├─ → BPM02-AMC-110 (DTL-030 BPM 1/2) = NOK   [= 0]        @ 17:53:16.650  (-0.015 s)
+         ├─ → BPM02-AMC-120 (DTL-040 BPM 1/2) = NOK   [= 0]        @ 17:53:16.651  (-0.015 s)
+         └─ → BPM02-AMC-130 (DTL-050 BPM 1/2) = NOK   [= 0]        @ 17:53:16.654  (-0.012 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 18:47:47
+Duration : 2 min 33 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 18:47:47.687  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                              @ 01:16:00.427  (-17 h 31 min)
+    Beam Destination = BeamDump                                    @ 00:31:44.427  (-18 h 16 min)
+    Expected Current = 5.15887 mA                                  @ 01:31:17.222  (-17 h 16 min)
+    Beam Frequency = 1.0 Hz                                        @ 18:11:01.709  (-36 min 46 s)
+    RF Frequency = 1.0 Hz                                          @ 13:49:14.710  (-4 h 58 min)
+    Source Frequency = 1.0 Hz                                      @ 09:08:46.710  (-9 h 39 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-03 09:11:29.447  (-105 h 36 min)
+    LEBT Pulse Length = 24.0 us                                    @ 18:11:00.640  (-36 min 47 s)
+    Beam Pulse Length = 5.0 us                                     @ 18:11:00.640  (-36 min 47 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 18:47:47.685  (-0.002 s)
+      └─ → BPM = NOK   [= 0]                                       @ 18:47:47.683  (-0.005 s)
+         └─ → BPM12-AMC-120 (HEBT-070 BPM 1/ HEBT-080 BPM 1) = NOK   [= 0]   @ 18:47:47.682  (-0.006 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 19:06:06
+Duration : 1 min 40 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 19:06:06.660  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                              @ 01:16:00.427  (-17 h 50 min)
+    Beam Destination = BeamDump                                    @ 00:31:44.427  (-18 h 34 min)
+    Expected Current = 5.15887 mA                                  @ 01:31:17.222  (-17 h 34 min)
+    Beam Frequency = 1.0 Hz                                        @ 18:50:31.709  (-15 min 35 s)
+    RF Frequency = 1.0 Hz                                          @ 13:49:14.710  (-5 h 16 min)
+    Source Frequency = 1.0 Hz                                      @ 09:08:46.710  (-9 h 57 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-03 09:11:29.447  (-105 h 54 min)
+    LEBT Pulse Length = 24.0 us                                    @ 18:50:30.639  (-15 min 36 s)
+    Beam Pulse Length = 5.0 us                                     @ 18:50:30.639  (-15 min 36 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 19:06:06.653  (-0.007 s)
+      └─ → BPM = NOK   [= 0]                                       @ 19:06:06.653  (-0.007 s)
+         └─ → BPM13-AMC-220 (DmpL-010 BPM 1/DmpL-020 BPM 1) = NOK   [= 0]   @ 19:06:06.650  (-0.010 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-07 21:26:43
+Duration : 1 min 50 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 21:26:43.660  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                              @ 01:16:00.427  (-20 h 10 min)
+    Beam Destination = BeamDump                                    @ 00:31:44.427  (-20 h 54 min)
+    Expected Current = 5.15887 mA                                  @ 01:31:17.222  (-19 h 55 min)
+    Beam Frequency = 1.0 Hz                                        @ 19:07:53.709  (-2 h 18 min)
+    RF Frequency = 1.0 Hz                                          @ 13:49:14.710  (-7 h 37 min)
+    Source Frequency = 1.0 Hz                                      @ 09:08:46.710  (-12 h 17 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-03 09:11:29.447  (-108 h 15 min)
+    LEBT Pulse Length = 24.0 us                                    @ 19:07:52.639  (-2 h 18 min)
+    Beam Pulse Length = 5.0 us                                     @ 19:07:52.640  (-2 h 18 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 21:26:43.655  (-0.005 s)
+      └─ → BPM = NOK   [= 0]                                       @ 21:26:43.652  (-0.008 s)
+         └─ → BPM13-AMC-220 (DmpL-010 BPM 1/DmpL-020 BPM 1) = NOK   [= 0]   @ 21:26:43.651  (-0.008 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-08 01:23:06
+Duration : 4 min 57 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                 @ 01:23:06.659  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                @ 2026-06-07 01:16:00.427  (-24 h 7 min)
+    Beam Destination = BeamDump                      @ 2026-06-07 00:31:44.427  (-24 h 51 min)
+    Expected Current = 5.15887 mA                    @ 2026-06-07 01:31:17.222  (-23 h 51 min)
+    Beam Frequency = 1.0 Hz                          @ 2026-06-07 21:28:39.708  (-3 h 54 min)
+    RF Frequency = 1.0 Hz                            @ 2026-06-07 13:49:14.710  (-11 h 33 min)
+    Source Frequency = 1.0 Hz                        @ 2026-06-07 09:08:46.710  (-16 h 14 min)
+    Source Pulse Length = 6500.0 us                  @ 2026-06-03 09:11:29.447  (-112 h 11 min)
+    LEBT Pulse Length = 24.0 us                      @ 2026-06-07 21:28:38.639  (-3 h 54 min)
+    Beam Pulse Length = 5.0 us                       @ 2026-06-07 21:28:38.639  (-3 h 54 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                    @ 01:23:06.651  (-0.008 s)
+      └─ → BCM = NOK   [= 0]                         @ 01:23:06.650  (-0.010 s)
+         └─ → PBI-BCM01 = NOK   [= 0]                @ 01:23:06.648  (-0.011 s)
+            ├─ → LEBT BCM 01 = NOK   [> 0]           @ 01:23:06.283  (-0.377 s)
+            └─ → LEBT BCM 210 (RDNT) = NOK   [> 0]   @ 01:23:05.943  (-0.716 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-08 04:57:30
+Duration : 2 min 47 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 04:57:30.659  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                              @ 2026-06-07 01:16:00.427  (-27 h 41 min)
+    Beam Destination = BeamDump                                    @ 2026-06-07 00:31:44.427  (-28 h 25 min)
+    Expected Current = 5.15887 mA                                  @ 2026-06-07 01:31:17.222  (-27 h 26 min)
+    Beam Frequency = 1.0 Hz                                        @ 03:13:11.707  (-1 h 44 min)
+    RF Frequency = 1.0 Hz                                          @ 2026-06-07 13:49:14.710  (-15 h 8 min)
+    Source Frequency = 1.0 Hz                                      @ 03:21:02.707  (-1 h 36 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-03 09:11:29.447  (-115 h 46 min)
+    LEBT Pulse Length = 24.0 us                                    @ 01:28:40.638  (-3 h 28 min)
+    Beam Pulse Length = 5.0 us                                     @ 01:28:40.638  (-3 h 28 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 04:57:30.653  (-0.006 s)
+      └─ → BPM = NOK   [= 0]                                       @ 04:57:30.651  (-0.008 s)
+         └─ → BPM12-AMC-110 (HEBT-050 BPM 1/ HEBT-060 BPM 1) = NOK   [= 0]   @ 04:57:30.650  (-0.009 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-08 06:36:12
+Duration : 2 min 45 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 06:36:12.658  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                              @ 2026-06-07 01:16:00.427  (-29 h 20 min)
+    Beam Destination = BeamDump                                    @ 2026-06-07 00:31:44.427  (-30 h 4 min)
+    Expected Current = 5.15887 mA                                  @ 2026-06-07 01:31:17.222  (-29 h 4 min)
+    Beam Frequency = 1.0 Hz                                        @ 05:00:23.707  (-1 h 35 min)
+    RF Frequency = 1.0 Hz                                          @ 2026-06-07 13:49:14.710  (-16 h 46 min)
+    Source Frequency = 1.0 Hz                                      @ 03:21:02.707  (-3 h 15 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-03 09:11:29.447  (-117 h 24 min)
+    LEBT Pulse Length = 24.0 us                                    @ 05:00:22.637  (-1 h 35 min)
+    Beam Pulse Length = 5.0 us                                     @ 05:00:22.637  (-1 h 35 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 06:36:12.653  (-0.005 s)
+      └─ → BPM = NOK   [= 0]                                       @ 06:36:12.651  (-0.008 s)
+         └─ → BPM12-AMC-120 (HEBT-070 BPM 1/ HEBT-080 BPM 1) = NOK   [= 0]   @ 06:36:12.650  (-0.008 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-08 07:04:34
+Duration : 4 min 5 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]          @ 07:04:34.661  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                         @ 2026-06-07 01:16:00.427  (-29 h 48 min)
+    Beam Destination = BeamDump               @ 2026-06-07 00:31:44.427  (-30 h 32 min)
+    Expected Current = 5.15887 mA             @ 2026-06-07 01:31:17.222  (-29 h 33 min)
+    Beam Frequency = 1.0 Hz                   @ 06:39:05.707  (-25 min 29 s)
+    RF Frequency = 1.0 Hz                     @ 2026-06-07 13:49:14.710  (-17 h 15 min)
+    Source Frequency = 1.0 Hz                 @ 03:21:02.707  (-3 h 43 min)
+    Source Pulse Length = 6500.0 us           @ 2026-06-03 09:11:29.447  (-117 h 53 min)
+    LEBT Pulse Length = 24.0 us               @ 06:39:04.637  (-25 min 30 s)
+    Beam Pulse Length = 5.0 us                @ 06:39:04.637  (-25 min 30 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Interlock System = NOK   [= 0]       @ 07:04:34.651  (-0.010 s)
+      └─ → Software Interlock = NOK   [= 0]   @ 07:04:34.649  (-0.012 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-10 01:39:33
+Duration : 5 min 33 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]    @ 01:39:33.659  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                   @ 2026-06-09 11:32:33.927  (-14 h 7 min)
+    Beam Destination = BeamDump         @ 2026-06-09 11:32:38.427  (-14 h 6 min)
+    Expected Current = 5.15887 mA       @ 2026-06-09 22:05:52.442  (-3 h 33 min)
+    Beam Frequency = 1.0 Hz             @ 2026-06-09 15:39:09.701  (-10 h 0 min)
+    RF Frequency = 1.0 Hz               @ 2026-06-09 20:26:02.700  (-5 h 13 min)
+    Source Frequency = 1.0 Hz           @ 2026-06-09 15:45:34.701  (-9 h 53 min)
+    Source Pulse Length = 6500.0 us     @ 2026-06-03 09:11:29.447  (-160 h 28 min)
+    LEBT Pulse Length = 24.0 us         @ 2026-06-09 11:33:16.632  (-14 h 6 min)
+    Beam Pulse Length = 5.0 us          @ 2026-06-09 11:33:16.632  (-14 h 6 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]   @ 01:39:33.660  (+0.001 s)
+      └─ → RF Systems = NOK   [= 0]     @ 01:39:33.658  (-0.001 s)
+         └─ → DTL-010 = NOK   [= 0]     @ 01:39:33.656  (-0.004 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-10 02:49:34
+Duration : 6 min 5 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]    @ 02:49:34.658  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                   @ 2026-06-09 11:32:33.927  (-15 h 17 min)
+    Beam Destination = BeamDump         @ 2026-06-09 11:32:38.427  (-15 h 16 min)
+    Expected Current = 5.15887 mA       @ 2026-06-09 22:05:52.442  (-4 h 43 min)
+    Beam Frequency = 1.0 Hz             @ 01:45:15.699  (-1 h 4 min)
+    RF Frequency = 1.0 Hz               @ 2026-06-09 20:26:02.700  (-6 h 23 min)
+    Source Frequency = 1.0 Hz           @ 2026-06-09 15:45:34.701  (-11 h 4 min)
+    Source Pulse Length = 6500.0 us     @ 2026-06-03 09:11:29.447  (-161 h 38 min)
+    LEBT Pulse Length = 24.0 us         @ 01:45:14.630  (-1 h 4 min)
+    Beam Pulse Length = 5.0 us          @ 01:45:14.630  (-1 h 4 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]       @ 02:49:34.651  (-0.008 s)
+      └─ → BCM = NOK   [= 0]            @ 02:49:34.650  (-0.009 s)
+         └─ → PBI-BCM01 = NOK   [= 0]   @ 02:49:34.648  (-0.010 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-10 04:17:30
+Duration : 21 min 3 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]    @ 04:17:30.659  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                   @ 2026-06-09 11:32:33.927  (-16 h 44 min)
+    Beam Destination = BeamDump         @ 2026-06-09 11:32:38.427  (-16 h 44 min)
+    Expected Current = 5.15887 mA       @ 2026-06-09 22:05:52.442  (-6 h 11 min)
+    Beam Frequency = 1.0 Hz             @ 02:55:47.699  (-1 h 21 min)
+    RF Frequency = 1.0 Hz               @ 2026-06-09 20:26:02.700  (-7 h 51 min)
+    Source Frequency = 1.0 Hz           @ 2026-06-09 15:45:34.701  (-12 h 31 min)
+    Source Pulse Length = 6500.0 us     @ 2026-06-03 09:11:29.447  (-163 h 6 min)
+    LEBT Pulse Length = 24.0 us         @ 02:55:46.630  (-1 h 21 min)
+    Beam Pulse Length = 5.0 us          @ 02:55:46.630  (-1 h 21 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]   @ 04:17:30.660  (+0.001 s)
+      └─ → RF Systems = NOK   [= 0]     @ 04:17:30.659  (-0.000 s)
+         └─ → RFQ-010 = NOK   [= 0]     @ 04:17:30.657  (-0.002 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-28 22:10:49
+Duration : 2 min 40 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 22:10:49.661  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = RfTest                                             @ 20:40:32.428  (-1 h 30 min)
+    Beam Destination = BeamDump                                    @ 12:52:48.428  (-9 h 18 min)
+    Expected Current = 5.15887 mA                                  @ 20:48:58.592  (-1 h 21 min)
+    Beam Frequency = 1.0 Hz                                        @ 21:32:52.061  (-37 min 58 s)
+    RF Frequency = 1.0 Hz                                          @ 21:32:52.062  (-37 min 58 s)
+    Source Frequency = 1.0 Hz                                      @ 21:32:52.062  (-37 min 58 s)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-25 15:45:37.262  (-78 h 25 min)
+    LEBT Pulse Length = 69.0 us                                    @ 20:45:15.263  (-1 h 25 min)
+    Beam Pulse Length = 50.0 us                                    @ 20:45:15.263  (-1 h 25 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 22:10:49.654  (-0.008 s)
+      ├─ → BCM = NOK   [= 0]                                       @ 22:10:49.654  (-0.008 s)
+      │  └─ → PBI-BCM01 = NOK   [= 0]                              @ 22:10:49.649  (-0.012 s)
+      │     ├─ → RFQ BCM 01 = NOK   [> 0]                          @ 22:10:49.126  (-0.535 s)
+      │     └─ → RFQ BCM 201 (RDNT) = NOK   [> 0]                  @ 22:10:49.082  (-0.579 s)
+      └─ → BPM = NOK   [= 0]                                       @ 22:10:49.654  (-0.008 s)
+         ├─ → BPM01-AMC-110 (MEBT BPM1/2) = NOK   [= 0]            @ 22:10:49.649  (-0.012 s)
+         ├─ → BPM01-AMC-120 (MEBT BPM 3/5) = NOK   [= 0]           @ 22:10:49.649  (-0.012 s)
+         ├─ → BPM01-AMC-130 (MEBT BPM 6/7) = NOK   [= 0]           @ 22:10:49.651  (-0.010 s)
+         ├─ → BPM01-AMC-140 (MEBT BPM 8 / DTL-010 BPM 1) = NOK   [= 0]   @ 22:10:49.651  (-0.010 s)
+         ├─ → BPM01-AMC-210 (DTL-010 BPM 2/3) = NOK   [= 0]        @ 22:10:49.651  (-0.010 s)
+         ├─ → BPM01-AMC-220 (DTL-010 BPM 4/5) = NOK   [= 0]        @ 22:10:49.651  (-0.010 s)
+         ├─ → BPM01-AMC-230 (DTL-010 BPM 6/ DTL-020 BPM 1) = NOK   [= 0]   @ 22:10:49.652  (-0.010 s)
+         ├─ → BPM02-AMC-110 (DTL-030 BPM 1/2) = NOK   [= 0]        @ 22:10:49.652  (-0.010 s)
+         ├─ → BPM02-AMC-120 (DTL-040 BPM 1/2) = NOK   [= 0]        @ 22:10:49.652  (-0.010 s)
+         ├─ → BPM02-AMC-130 (DTL-050 BPM 1/2) = NOK   [= 0]        @ 22:10:49.653  (-0.008 s)
+         └─ → BPM14-AMC-230 (DmpL-030 QC BPM 1/DmpL-040 Drf BPM 1) = NOK   [= 0]   @ 22:10:50.650  (+0.989 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-28 22:18:23
+Duration : 3 min 5 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 22:18:23.661  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = RfTest                                             @ 20:40:32.428  (-1 h 37 min)
+    Beam Destination = BeamDump                                    @ 12:52:48.428  (-9 h 25 min)
+    Expected Current = 5.15887 mA                                  @ 20:48:58.592  (-1 h 29 min)
+    Beam Frequency = 1.0 Hz                                        @ 22:14:21.060  (-4 min 3 s)
+    RF Frequency = 1.0 Hz                                          @ 21:32:52.062  (-45 min 32 s)
+    Source Frequency = 1.0 Hz                                      @ 21:32:52.062  (-45 min 32 s)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-25 15:45:37.262  (-78 h 32 min)
+    LEBT Pulse Length = 69.0 us                                    @ 22:14:18.262  (-4 min 5 s)
+    Beam Pulse Length = 50.0 us                                    @ 22:14:18.262  (-4 min 5 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 22:18:23.662  (+0.001 s)
+      ├─ → BCM = NOK   [= 0]                                       @ 22:18:23.660  (-0.001 s)
+      │  └─ → PBI-BCM01 = NOK   [= 0]                              @ 22:18:23.660  (-0.001 s)
+      │     ├─ → RFQ BCM 01 = NOK   [> 0]                          @ 22:18:23.127  (-0.534 s)
+      │     └─ → RFQ BCM 201 (RDNT) = NOK   [> 0]                  @ 22:18:23.082  (-0.579 s)
+      └─ → BPM = NOK   [= 0]                                       @ 22:18:23.662  (+0.001 s)
+         ├─ → BPM01-AMC-110 (MEBT BPM1/2) = NOK   [= 0]            @ 22:18:23.650  (-0.011 s)
+         ├─ → BPM01-AMC-120 (MEBT BPM 3/5) = NOK   [= 0]           @ 22:18:23.650  (-0.011 s)
+         ├─ → BPM01-AMC-130 (MEBT BPM 6/7) = NOK   [= 0]           @ 22:18:23.650  (-0.011 s)
+         ├─ → BPM01-AMC-140 (MEBT BPM 8 / DTL-010 BPM 1) = NOK   [= 0]   @ 22:18:23.650  (-0.011 s)
+         ├─ → BPM01-AMC-210 (DTL-010 BPM 2/3) = NOK   [= 0]        @ 22:18:23.650  (-0.011 s)
+         ├─ → BPM01-AMC-220 (DTL-010 BPM 4/5) = NOK   [= 0]        @ 22:18:23.650  (-0.011 s)
+         ├─ → BPM01-AMC-230 (DTL-010 BPM 6/ DTL-020 BPM 1) = NOK   [= 0]   @ 22:18:23.650  (-0.011 s)
+         ├─ → BPM01-AMC-240 (DTL-020 BPM 2/3) = NOK   [= 0]        @ 22:18:23.659  (-0.002 s)
+         ├─ → BPM02-AMC-110 (DTL-030 BPM 1/2) = NOK   [= 0]        @ 22:18:23.659  (-0.002 s)
+         ├─ → BPM02-AMC-120 (DTL-040 BPM 1/2) = NOK   [= 0]        @ 22:18:23.659  (-0.002 s)
+         ├─ → BPM02-AMC-130 (DTL-050 BPM 1/2) = NOK   [= 0]        @ 22:18:23.659  (-0.002 s)
+         └─ → BPM14-AMC-230 (DmpL-030 QC BPM 1/DmpL-040 Drf BPM 1) = NOK   [= 0]   @ 22:18:24.654  (+0.993 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 01:09:04
+Duration : 2 min 56 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 01:09:04.667  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = RfTest                                             @ 2026-06-28 20:40:32.428  (-4 h 28 min)
+    Beam Destination = BeamDump                                    @ 2026-06-28 12:52:48.428  (-12 h 16 min)
+    Expected Current = 5.15887 mA                                  @ 2026-06-28 20:48:58.592  (-4 h 20 min)
+    Beam Frequency = 1.0 Hz                                        @ 2026-06-28 22:21:43.060  (-2 h 47 min)
+    RF Frequency = 1.0 Hz                                          @ 2026-06-28 21:32:52.062  (-3 h 36 min)
+    Source Frequency = 1.0 Hz                                      @ 2026-06-28 21:32:52.062  (-3 h 36 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-25 15:45:37.262  (-81 h 23 min)
+    LEBT Pulse Length = 69.0 us                                    @ 2026-06-28 22:21:41.262  (-2 h 47 min)
+    Beam Pulse Length = 50.0 us                                    @ 2026-06-28 22:21:41.262  (-2 h 47 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 01:09:04.658  (-0.009 s)
+      └─ → BPM = NOK   [= 0]                                       @ 01:09:04.654  (-0.013 s)
+         ├─ → BPM01-AMC-110 (MEBT BPM1/2) = NOK   [= 0]            @ 01:09:04.651  (-0.016 s)
+         ├─ → BPM01-AMC-120 (MEBT BPM 3/5) = NOK   [= 0]           @ 01:09:04.651  (-0.016 s)
+         ├─ → BPM01-AMC-130 (MEBT BPM 6/7) = NOK   [= 0]           @ 01:09:04.651  (-0.016 s)
+         ├─ → BPM01-AMC-140 (MEBT BPM 8 / DTL-010 BPM 1) = NOK   [= 0]   @ 01:09:04.651  (-0.016 s)
+         ├─ → BPM01-AMC-210 (DTL-010 BPM 2/3) = NOK   [= 0]        @ 01:09:04.652  (-0.015 s)
+         ├─ → BPM01-AMC-220 (DTL-010 BPM 4/5) = NOK   [= 0]        @ 01:09:04.653  (-0.014 s)
+         ├─ → BPM01-AMC-230 (DTL-010 BPM 6/ DTL-020 BPM 1) = NOK   [= 0]   @ 01:09:04.653  (-0.014 s)
+         ├─ → BPM01-AMC-240 (DTL-020 BPM 2/3) = NOK   [= 0]        @ 01:09:04.653  (-0.014 s)
+         ├─ → BPM02-AMC-110 (DTL-030 BPM 1/2) = NOK   [= 0]        @ 01:09:04.653  (-0.014 s)
+         ├─ → BPM02-AMC-120 (DTL-040 BPM 1/2) = NOK   [= 0]        @ 01:09:04.653  (-0.014 s)
+         ├─ → BPM02-AMC-130 (DTL-050 BPM 1/2) = NOK   [= 0]        @ 01:09:04.654  (-0.013 s)
+         └─ → BPM14-AMC-230 (DmpL-030 QC BPM 1/DmpL-040 Drf BPM 1) = NOK   [= 0]   @ 01:09:05.657  (+0.990 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 01:38:47
+Duration : 2 min 12 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]    @ 01:38:47.661  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = RfTest                  @ 2026-06-28 20:40:32.428  (-4 h 58 min)
+    Beam Destination = BeamDump         @ 2026-06-28 12:52:48.428  (-12 h 45 min)
+    Expected Current = 5.15887 mA       @ 2026-06-28 20:48:58.592  (-4 h 49 min)
+    Beam Frequency = 1.0 Hz             @ 01:12:13.060  (-26 min 35 s)
+    RF Frequency = 1.0 Hz               @ 2026-06-28 21:32:52.062  (-4 h 5 min)
+    Source Frequency = 1.0 Hz           @ 2026-06-28 21:32:52.062  (-4 h 5 min)
+    Source Pulse Length = 6500.0 us     @ 2026-06-25 15:45:37.262  (-81 h 53 min)
+    LEBT Pulse Length = 69.0 us         @ 01:12:10.263  (-26 min 37 s)
+    Beam Pulse Length = 50.0 us         @ 01:12:10.263  (-26 min 37 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]   @ 01:38:47.664  (+0.003 s)
+      └─ → RF Systems = NOK   [= 0]     @ 01:38:47.663  (+0.002 s)
+         └─ → RFQ-010 = NOK   [= 0]     @ 01:38:47.657  (-0.004 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 02:02:16
+Duration : 13 min 58 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 02:02:16.675  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = RfTest                                             @ 2026-06-28 20:40:32.428  (-5 h 21 min)
+    Beam Destination = BeamDump                                    @ 2026-06-28 12:52:48.428  (-13 h 9 min)
+    Expected Current = 5.15887 mA                                  @ 2026-06-28 20:48:58.592  (-5 h 13 min)
+    Beam Frequency = 1.0 Hz                                        @ 01:41:09.060  (-21 min 8 s)
+    RF Frequency = 1.0 Hz                                          @ 2026-06-28 21:32:52.062  (-4 h 29 min)
+    Source Frequency = 1.0 Hz                                      @ 2026-06-28 21:32:52.062  (-4 h 29 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-25 15:45:37.262  (-82 h 16 min)
+    LEBT Pulse Length = 69.0 us                                    @ 01:41:06.263  (-21 min 10 s)
+    Beam Pulse Length = 50.0 us                                    @ 01:41:06.263  (-21 min 10 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 02:02:16.659  (-0.016 s)
+      ├─ → BCM = NOK   [= 0]                                       @ 02:02:16.659  (-0.016 s)
+      │  └─ → PBI-BCM01 = NOK   [= 0]                              @ 02:02:16.657  (-0.017 s)
+      └─ → BPM = NOK   [= 0]                                       @ 02:02:16.659  (-0.016 s)
+         ├─ → BPM01-AMC-110 (MEBT BPM1/2) = NOK   [= 0]            @ 02:02:16.658  (-0.017 s)
+         ├─ → BPM01-AMC-120 (MEBT BPM 3/5) = NOK   [= 0]           @ 02:02:16.658  (-0.017 s)
+         ├─ → BPM01-AMC-130 (MEBT BPM 6/7) = NOK   [= 0]           @ 02:02:16.658  (-0.017 s)
+         ├─ → BPM01-AMC-140 (MEBT BPM 8 / DTL-010 BPM 1) = NOK   [= 0]   @ 02:02:16.658  (-0.017 s)
+         ├─ → BPM01-AMC-210 (DTL-010 BPM 2/3) = NOK   [= 0]        @ 02:02:16.658  (-0.017 s)
+         ├─ → BPM01-AMC-220 (DTL-010 BPM 4/5) = NOK   [= 0]        @ 02:02:16.658  (-0.017 s)
+         ├─ → BPM01-AMC-230 (DTL-010 BPM 6/ DTL-020 BPM 1) = NOK   [= 0]   @ 02:02:16.658  (-0.017 s)
+         ├─ → BPM01-AMC-240 (DTL-020 BPM 2/3) = NOK   [= 0]        @ 02:02:16.658  (-0.016 s)
+         ├─ → BPM02-AMC-110 (DTL-030 BPM 1/2) = NOK   [= 0]        @ 02:02:16.659  (-0.016 s)
+         ├─ → BPM02-AMC-120 (DTL-040 BPM 1/2) = NOK   [= 0]        @ 02:02:16.659  (-0.016 s)
+         ├─ → BPM02-AMC-130 (DTL-050 BPM 1/2) = NOK   [= 0]        @ 02:02:16.659  (-0.016 s)
+         ├─ → BPM02-AMC-220 (SPK-020 BPM 1/SPK-030 BPM 1) = NOK   [= 0]   @ 02:02:16.672  (-0.003 s)
+         └─ → BPM14-AMC-230 (DmpL-030 QC BPM 1/DmpL-040 Drf BPM 1) = NOK   [= 0]   @ 02:02:17.652  (+0.977 s)
+  → Accelerator Systems = NOK   [= 0]                              @ 02:02:16.676  (+0.001 s)
+      ├─ → ISrc = NOK   [= 0]                                      @ 02:02:17.663  (+0.988 s)
+      └─ → RF Systems = NOK   [= 0]                                @ 02:02:16.675  (+0.001 s)
+         ├─ → MBL-050 S1 = NOK   [= 0]                             @ 02:02:16.672  (-0.003 s)
+         └─ → MBL-050 S4 = NOK   [= 0]                             @ 02:02:16.672  (-0.003 s)
+  → Feedbacks = NOK   [= 0]                                        @ 02:02:16.676  (+0.001 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 02:57:48
+Duration : 8 min 52 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]     @ 02:57:48.667  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = RfTest                   @ 2026-06-28 20:40:32.428  (-6 h 17 min)
+    Beam Destination = BeamDump          @ 2026-06-28 12:52:48.428  (-14 h 5 min)
+    Expected Current = 5.15887 mA        @ 2026-06-28 20:48:58.592  (-6 h 8 min)
+    Beam Frequency = 1.0 Hz              @ 02:16:25.060  (-41 min 24 s)
+    RF Frequency = 1.0 Hz                @ 2026-06-28 21:32:52.062  (-5 h 24 min)
+    Source Frequency = 1.0 Hz            @ 2026-06-28 21:32:52.062  (-5 h 24 min)
+    Source Pulse Length = 6500.0 us      @ 2026-06-25 15:45:37.262  (-83 h 12 min)
+    LEBT Pulse Length = 69.0 us          @ 02:16:22.262  (-41 min 26 s)
+    Beam Pulse Length = 50.0 us          @ 02:16:22.262  (-41 min 26 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]    @ 02:57:48.676  (+0.009 s)
+      └─ → RF Systems = NOK   [= 0]      @ 02:57:48.675  (+0.009 s)
+         ├─ → MBL-050 S1 = NOK   [= 0]   @ 02:57:49.657  (+0.990 s)
+         └─ → MBL-050 S4 = NOK   [= 0]   @ 02:57:48.675  (+0.008 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 03:25:58
+Duration : 4 min 49 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 03:25:58.669  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = RfTest                                             @ 2026-06-28 20:40:32.428  (-6 h 45 min)
+    Beam Destination = BeamDump                                    @ 2026-06-28 12:52:48.428  (-14 h 33 min)
+    Expected Current = 5.15887 mA                                  @ 2026-06-28 20:48:58.592  (-6 h 37 min)
+    Beam Frequency = 1.0 Hz                                        @ 03:06:53.060  (-19 min 6 s)
+    RF Frequency = 1.0 Hz                                          @ 2026-06-28 21:32:52.062  (-5 h 53 min)
+    Source Frequency = 1.0 Hz                                      @ 2026-06-28 21:32:52.062  (-5 h 53 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-25 15:45:37.262  (-83 h 40 min)
+    LEBT Pulse Length = 69.0 us                                    @ 03:06:51.262  (-19 min 7 s)
+    Beam Pulse Length = 50.0 us                                    @ 03:06:51.262  (-19 min 7 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 03:25:58.657  (-0.012 s)
+      └─ → BPM = NOK   [= 0]                                       @ 03:25:58.653  (-0.016 s)
+         ├─ → BPM01-AMC-110 (MEBT BPM1/2) = NOK   [= 0]            @ 03:25:58.649  (-0.019 s)
+         ├─ → BPM01-AMC-120 (MEBT BPM 3/5) = NOK   [= 0]           @ 03:25:58.650  (-0.019 s)
+         ├─ → BPM01-AMC-130 (MEBT BPM 6/7) = NOK   [= 0]           @ 03:25:58.650  (-0.018 s)
+         ├─ → BPM01-AMC-140 (MEBT BPM 8 / DTL-010 BPM 1) = NOK   [= 0]   @ 03:25:58.651  (-0.018 s)
+         ├─ → BPM01-AMC-210 (DTL-010 BPM 2/3) = NOK   [= 0]        @ 03:25:58.652  (-0.017 s)
+         ├─ → BPM01-AMC-220 (DTL-010 BPM 4/5) = NOK   [= 0]        @ 03:25:58.652  (-0.017 s)
+         ├─ → BPM01-AMC-230 (DTL-010 BPM 6/ DTL-020 BPM 1) = NOK   [= 0]   @ 03:25:58.652  (-0.017 s)
+         ├─ → BPM01-AMC-240 (DTL-020 BPM 2/3) = NOK   [= 0]        @ 03:25:58.653  (-0.016 s)
+         ├─ → BPM02-AMC-110 (DTL-030 BPM 1/2) = NOK   [= 0]        @ 03:25:58.653  (-0.016 s)
+         ├─ → BPM02-AMC-120 (DTL-040 BPM 1/2) = NOK   [= 0]        @ 03:25:58.654  (-0.015 s)
+         ├─ → BPM02-AMC-130 (DTL-050 BPM 1/2) = NOK   [= 0]        @ 03:25:58.655  (-0.014 s)
+         ├─ → BPM02-AMC-210 (SPK-010 BPM 1/2) = NOK   [= 0]        @ 03:25:58.655  (-0.014 s)
+         └─ → BPM14-AMC-230 (DmpL-030 QC BPM 1/DmpL-040 Drf BPM 1) = NOK   [= 0]   @ 03:25:59.652  (+0.984 s)
+  → Accelerator Systems = NOK   [= 0]                              @ 03:26:01.672  (+3.003 s)
+      └─ → RF Systems = NOK   [= 0]                                @ 03:26:01.669  (+3.000 s)
+         └─ → DTL-010 = NOK   [= 0]                                @ 03:26:01.665  (+2.996 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 13:01:41
+Duration : 1 min 2 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 13:01:41.660  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = RfTest                                             @ 09:40:51.427  (-3 h 20 min)
+    Beam Destination = BeamDump                                    @ 09:00:08.431  (-4 h 1 min)
+    Expected Current = 4.36033 mA                                  @ 09:00:32.602  (-4 h 1 min)
+    Beam Frequency = 1.0 Hz                                        @ 10:29:17.058  (-2 h 32 min)
+    RF Frequency = 1.0 Hz                                          @ 09:35:45.059  (-3 h 25 min)
+    Source Frequency = 1.0 Hz                                      @ 09:35:45.059  (-3 h 25 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-25 15:45:37.262  (-93 h 16 min)
+    LEBT Pulse Length = 69.0 us                                    @ 12:46:05.262  (-15 min 36 s)
+    Beam Pulse Length = 50.0 us                                    @ 12:46:05.262  (-15 min 36 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 13:01:42.653  (+0.993 s)
+      └─ → BPM = NOK   [= 0]                                       @ 13:01:42.652  (+0.992 s)
+         └─ → BPM14-AMC-230 (DmpL-030 QC BPM 1/DmpL-040 Drf BPM 1) = NOK   [= 0]   @ 13:01:42.651  (+0.992 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 13:41:23
+Duration : 1 min 3 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]          @ 13:41:23.658  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = RfTest                        @ 13:29:32.441  (-11 min 51 s)
+    Beam Destination = MebtFc                 @ 13:29:17.927  (-12 min 6 s)
+    Expected Current = 2.96948 mA             @ 13:40:14.372  (-1 min 9 s)
+    Beam Frequency = 1.0 Hz                   @ 10:29:17.058  (-3 h 12 min)
+    RF Frequency = 1.0 Hz                     @ 09:35:45.059  (-4 h 5 min)
+    Source Frequency = 1.0 Hz                 @ 09:35:45.059  (-4 h 5 min)
+    Source Pulse Length = 6500.0 us           @ 2026-06-25 15:45:37.262  (-93 h 55 min)
+    LEBT Pulse Length = 69.0 us               @ 12:46:05.262  (-55 min 18 s)
+    Beam Pulse Length = 50.0 us               @ 12:46:05.262  (-55 min 18 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Interlock System = NOK   [= 0]       @ 13:41:24.649  (+0.991 s)
+      └─ → Software Interlock = NOK   [= 0]   @ 13:41:24.647  (+0.990 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 13:50:37
+Duration : 1 min 0 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]          @ 13:50:37.657  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = RfTest                        @ 13:29:32.441  (-21 min 5 s)
+    Beam Destination = MebtFc                 @ 13:29:17.927  (-21 min 20 s)
+    Expected Current = 3.6442 mA              @ 13:49:31.322  (-1 min 6 s)
+    Beam Frequency = 1.0 Hz                   @ 10:29:17.058  (-3 h 21 min)
+    RF Frequency = 1.0 Hz                     @ 09:35:45.059  (-4 h 14 min)
+    Source Frequency = 1.0 Hz                 @ 09:35:45.059  (-4 h 14 min)
+    Source Pulse Length = 6500.0 us           @ 2026-06-25 15:45:37.262  (-94 h 5 min)
+    LEBT Pulse Length = 50.0 us               @ 13:42:14.263  (-8 min 23 s)
+    Beam Pulse Length = 50.0 us               @ 12:46:05.262  (-1 h 4 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Interlock System = NOK   [= 0]       @ 13:50:42.650  (+4.993 s)
+      └─ → Software Interlock = NOK   [= 0]   @ 13:50:42.648  (+4.991 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 13:59:28
+Duration : 1 h 12 min 3 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]    @ 13:59:28.663  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = RfTest                  @ 13:51:04.933  (-8 min 24 s)
+    Beam Destination = BeamDump         @ 13:51:01.427  (-8 min 27 s)
+    Expected Current = 3.6442 mA        @ 13:49:31.322  (-9 min 57 s)
+    Beam Frequency = 1.0 Hz             @ 13:51:47.058  (-7 min 42 s)
+    RF Frequency = 1.0 Hz               @ 09:35:45.059  (-4 h 23 min)
+    Source Frequency = 1.0 Hz           @ 09:35:45.059  (-4 h 23 min)
+    Source Pulse Length = 6500.0 us     @ 2026-06-25 15:45:37.262  (-94 h 13 min)
+    LEBT Pulse Length = 69.0 us         @ 13:51:44.262  (-7 min 44 s)
+    Beam Pulse Length = 50.0 us         @ 13:51:44.262  (-7 min 44 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]   @ 13:59:28.662  (-0.001 s)
+      └─ → RF Systems = NOK   [= 0]     @ 13:59:28.658  (-0.005 s)
+         └─ → RFQ-010 = NOK   [= 0]     @ 13:59:28.657  (-0.006 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 17:52:27
+Duration : 1 min 0 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                 @ 17:52:27.667  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                                @ 17:41:57.427  (-10 min 30 s)
+    Beam Destination = BeamDump                      @ 13:51:01.427  (-4 h 1 min)
+    Expected Current = 62.0 mA                       @ 17:48:38.092  (-3 min 50 s)
+    Beam Frequency = 1.0 Hz                          @ 17:39:23.057  (-13 min 5 s)
+    RF Frequency = 1.0 Hz                            @ 09:35:45.059  (-8 h 16 min)
+    Source Frequency = 1.0 Hz                        @ 09:35:45.059  (-8 h 16 min)
+    Source Pulse Length = 6500.0 us                  @ 2026-06-25 15:45:37.262  (-98 h 6 min)
+    LEBT Pulse Length = 24.0 us                      @ 17:42:04.263  (-10 min 23 s)
+    Beam Pulse Length = 5.0 us                       @ 17:42:04.263  (-10 min 23 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                    @ 17:52:27.658  (-0.009 s)
+      └─ → BCM = NOK   [= 0]                         @ 17:52:27.657  (-0.010 s)
+         └─ → PBI-BCM01 = NOK   [= 0]                @ 17:52:27.655  (-0.012 s)
+            ├─ → LEBT BCM 01 = NOK   [> 0]           @ 17:52:27.122  (-0.545 s)
+            └─ → LEBT BCM 210 (RDNT) = NOK   [> 0]   @ 17:52:27.078  (-0.589 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 18:44:03
+Duration : 17 min 57 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]            @ 18:44:03.658  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = SlowCommissioning               @ 18:19:34.934  (-24 min 29 s)
+    Beam Destination = BeamDump                 @ 13:51:01.427  (-4 h 53 min)
+    Expected Current = 42.6572 mA               @ 18:38:03.412  (-6 min 0 s)
+    Beam Frequency = 1.0 Hz                     @ 17:39:23.057  (-1 h 4 min)
+    RF Frequency = 1.0 Hz                       @ 09:35:45.059  (-9 h 8 min)
+    Source Frequency = 1.0 Hz                   @ 09:35:45.059  (-9 h 8 min)
+    Source Pulse Length = 6500.0 us             @ 2026-06-25 15:45:37.262  (-98 h 58 min)
+    LEBT Pulse Length = 5.0 us                  @ 18:19:53.262  (-24 min 10 s)
+    Beam Pulse Length = 5.0 us                  @ 17:42:04.263  (-1 h 1 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]               @ 18:44:04.659  (+1.001 s)
+      └─ → Imaging Systems = NOK   [= 0]        @ 18:44:04.658  (+1.000 s)
+         └─ → DmpL-050 Img-002: = NOK   [= 0]   @ 18:44:04.655  (+0.997 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 19:03:23
+Duration : 1 min 30 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]            @ 19:03:23.657  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = SlowCommissioning               @ 18:19:34.934  (-43 min 49 s)
+    Beam Destination = BeamDump                 @ 13:51:01.427  (-5 h 12 min)
+    Expected Current = 42.6572 mA               @ 19:02:58.005  (-25.651 s)
+    Beam Frequency = 1.0 Hz                     @ 17:39:23.057  (-1 h 24 min)
+    RF Frequency = 1.0 Hz                       @ 09:35:45.059  (-9 h 27 min)
+    Source Frequency = 1.0 Hz                   @ 09:35:45.059  (-9 h 27 min)
+    Source Pulse Length = 6500.0 us             @ 2026-06-25 15:45:37.262  (-99 h 17 min)
+    LEBT Pulse Length = 5.0 us                  @ 18:19:53.262  (-43 min 30 s)
+    Beam Pulse Length = 5.0 us                  @ 17:42:04.263  (-1 h 21 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]               @ 19:03:24.659  (+1.003 s)
+      └─ → Imaging Systems = NOK   [= 0]        @ 19:03:24.658  (+1.001 s)
+         └─ → DmpL-050 Img-002: = NOK   [= 0]   @ 19:03:24.657  (+1.001 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 19:07:24
+Duration : 2 min 37 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]     @ 19:07:24.660  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = SlowCommissioning        @ 18:19:34.934  (-47 min 50 s)
+    Beam Destination = BeamDump          @ 13:51:01.427  (-5 h 16 min)
+    Expected Current = 60.8902 mA        @ 19:07:23.352  (-1.308 s)
+    Beam Frequency = 1.0 Hz              @ 17:39:23.057  (-1 h 28 min)
+    RF Frequency = 1.0 Hz                @ 09:35:45.059  (-9 h 31 min)
+    Source Frequency = 1.0 Hz            @ 09:35:45.059  (-9 h 31 min)
+    Source Pulse Length = 6500.0 us      @ 2026-06-25 15:45:37.262  (-99 h 21 min)
+    LEBT Pulse Length = 5.0 us           @ 18:19:53.262  (-47 min 31 s)
+    Beam Pulse Length = 5.0 us           @ 17:42:04.263  (-1 h 25 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]    @ 19:07:24.661  (+0.001 s)
+      └─ → RF Systems = NOK   [= 0]      @ 19:07:24.661  (+0.001 s)
+         └─ → MBL-090 S1 = NOK   [= 0]   @ 19:07:24.660  (-0.000 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 19:12:33
+Duration : 9 min 34 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]     @ 19:12:33.661  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = SlowCommissioning        @ 18:19:34.934  (-52 min 59 s)
+    Beam Destination = BeamDump          @ 13:51:01.427  (-5 h 21 min)
+    Expected Current = 61.3568 mA        @ 19:12:31.692  (-1.969 s)
+    Beam Frequency = 1.0 Hz              @ 17:39:23.057  (-1 h 33 min)
+    RF Frequency = 1.0 Hz                @ 09:35:45.059  (-9 h 36 min)
+    Source Frequency = 1.0 Hz            @ 09:35:45.059  (-9 h 36 min)
+    Source Pulse Length = 6500.0 us      @ 2026-06-25 15:45:37.262  (-99 h 26 min)
+    LEBT Pulse Length = 5.0 us           @ 18:19:53.262  (-52 min 40 s)
+    Beam Pulse Length = 5.0 us           @ 17:42:04.263  (-1 h 30 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]    @ 19:12:33.662  (+0.001 s)
+      └─ → RF Systems = NOK   [= 0]      @ 19:12:33.660  (-0.000 s)
+         └─ → MBL-090 S1 = NOK   [= 0]   @ 19:12:33.660  (-0.001 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 19:22:24
+Duration : 54 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]            @ 19:22:24.663  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = SlowCommissioning               @ 18:19:34.934  (-1 h 2 min)
+    Beam Destination = BeamDump                 @ 13:51:01.427  (-5 h 31 min)
+    Expected Current = 23.7689 mA               @ 19:15:12.742  (-7 min 12 s)
+    Beam Frequency = 1.0 Hz                     @ 17:39:23.057  (-1 h 43 min)
+    RF Frequency = 1.0 Hz                       @ 09:35:45.059  (-9 h 46 min)
+    Source Frequency = 1.0 Hz                   @ 09:35:45.059  (-9 h 46 min)
+    Source Pulse Length = 6500.0 us             @ 2026-06-25 15:45:37.262  (-99 h 36 min)
+    LEBT Pulse Length = 5.0 us                  @ 18:19:53.262  (-1 h 2 min)
+    Beam Pulse Length = 5.0 us                  @ 17:42:04.263  (-1 h 40 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]               @ 19:22:25.658  (+0.994 s)
+      └─ → Imaging Systems = NOK   [= 0]        @ 19:22:25.656  (+0.993 s)
+         └─ → DmpL-050 Img-002: = NOK   [= 0]   @ 19:22:25.655  (+0.991 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 19:25:34
+Duration : 40 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]            @ 19:25:34.660  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = SlowCommissioning               @ 18:19:34.934  (-1 h 6 min)
+    Beam Destination = BeamDump                 @ 13:51:01.427  (-5 h 34 min)
+    Expected Current = 23.7689 mA               @ 19:15:12.742  (-10 min 22 s)
+    Beam Frequency = 1.0 Hz                     @ 17:39:23.057  (-1 h 46 min)
+    RF Frequency = 1.0 Hz                       @ 09:35:45.059  (-9 h 49 min)
+    Source Frequency = 1.0 Hz                   @ 09:35:45.059  (-9 h 49 min)
+    Source Pulse Length = 6500.0 us             @ 2026-06-25 15:45:37.262  (-99 h 39 min)
+    LEBT Pulse Length = 5.0 us                  @ 18:19:53.262  (-1 h 5 min)
+    Beam Pulse Length = 5.0 us                  @ 17:42:04.263  (-1 h 43 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]               @ 19:25:35.657  (+0.997 s)
+      └─ → Imaging Systems = NOK   [= 0]        @ 19:25:35.655  (+0.995 s)
+         └─ → DmpL-050 Img-002: = NOK   [= 0]   @ 19:25:35.653  (+0.993 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 19:27:39
+Duration : 34 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]            @ 19:27:39.659  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = SlowCommissioning               @ 18:19:34.934  (-1 h 8 min)
+    Beam Destination = BeamDump                 @ 13:51:01.427  (-5 h 36 min)
+    Expected Current = 23.7689 mA               @ 19:15:12.742  (-12 min 27 s)
+    Beam Frequency = 1.0 Hz                     @ 17:39:23.057  (-1 h 48 min)
+    RF Frequency = 1.0 Hz                       @ 09:35:45.059  (-9 h 51 min)
+    Source Frequency = 1.0 Hz                   @ 09:35:45.059  (-9 h 51 min)
+    Source Pulse Length = 6500.0 us             @ 2026-06-25 15:45:37.262  (-99 h 42 min)
+    LEBT Pulse Length = 5.0 us                  @ 18:19:53.262  (-1 h 7 min)
+    Beam Pulse Length = 5.0 us                  @ 17:42:04.263  (-1 h 45 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]               @ 19:27:40.664  (+1.005 s)
+      └─ → Imaging Systems = NOK   [= 0]        @ 19:27:40.663  (+1.004 s)
+         └─ → DmpL-050 Img-002: = NOK   [= 0]   @ 19:27:40.655  (+0.997 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 19:42:02
+Duration : 6 min 35 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]    @ 19:42:02.664  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = SlowCommissioning       @ 18:19:34.934  (-1 h 22 min)
+    Beam Destination = BeamDump         @ 13:51:01.427  (-5 h 51 min)
+    Expected Current = 62.0 mA          @ 19:40:27.342  (-1 min 35 s)
+    Beam Frequency = 1.0 Hz             @ 17:39:23.057  (-2 h 2 min)
+    RF Frequency = 1.0 Hz               @ 09:35:45.059  (-10 h 6 min)
+    Source Frequency = 1.0 Hz           @ 09:35:45.059  (-10 h 6 min)
+    Source Pulse Length = 6500.0 us     @ 2026-06-25 15:45:37.262  (-99 h 56 min)
+    LEBT Pulse Length = 5.0 us          @ 18:19:53.262  (-1 h 22 min)
+    Beam Pulse Length = 5.0 us          @ 17:42:04.263  (-1 h 59 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]       @ 19:42:03.653  (+0.989 s)
+      └─ → BCM = NOK   [= 0]            @ 19:42:03.651  (+0.987 s)
+         └─ → PBI-BCM07 = NOK   [= 0]   @ 19:42:03.649  (+0.985 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 20:13:56
+Duration : 22 min 4 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]                               @ 20:13:56.688  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = SlowCommissioning                                  @ 18:19:34.934  (-1 h 54 min)
+    Beam Destination = BeamDump                                    @ 13:51:01.427  (-6 h 22 min)
+    Expected Current = 62.0 mA                                     @ 19:51:39.522  (-22 min 17 s)
+    Beam Frequency = 1.0 Hz                                        @ 17:39:23.057  (-2 h 34 min)
+    RF Frequency = 1.0 Hz                                          @ 09:35:45.059  (-10 h 38 min)
+    Source Frequency = 1.0 Hz                                      @ 09:35:45.059  (-10 h 38 min)
+    Source Pulse Length = 6500.0 us                                @ 2026-06-25 15:45:37.262  (-100 h 28 min)
+    LEBT Pulse Length = 5.0 us                                     @ 18:19:53.262  (-1 h 54 min)
+    Beam Pulse Length = 5.0 us                                     @ 17:42:04.263  (-2 h 31 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]                                  @ 20:13:56.657  (-0.032 s)
+      ├─ → BCM = NOK   [= 0]                                       @ 20:13:56.650  (-0.038 s)
+      │  └─ → PBI-BCM01 = NOK   [= 0]                              @ 20:13:56.649  (-0.039 s)
+      └─ → BPM = NOK   [= 0]                                       @ 20:13:56.662  (-0.026 s)
+         ├─ → BPM01-AMC-110 (MEBT BPM1/2) = NOK   [= 0]            @ 20:13:56.650  (-0.038 s)
+         ├─ → BPM01-AMC-120 (MEBT BPM 3/5) = NOK   [= 0]           @ 20:13:56.650  (-0.038 s)
+         ├─ → BPM01-AMC-130 (MEBT BPM 6/7) = NOK   [= 0]           @ 20:13:56.650  (-0.038 s)
+         ├─ → BPM01-AMC-140 (MEBT BPM 8 / DTL-010 BPM 1) = NOK   [= 0]   @ 20:13:56.650  (-0.038 s)
+         ├─ → BPM01-AMC-220 (DTL-010 BPM 4/5) = NOK   [= 0]        @ 20:13:56.653  (-0.035 s)
+         ├─ → BPM01-AMC-230 (DTL-010 BPM 6/ DTL-020 BPM 1) = NOK   [= 0]   @ 20:13:56.654  (-0.035 s)
+         ├─ → BPM02-AMC-110 (DTL-030 BPM 1/2) = NOK   [= 0]        @ 20:13:56.654  (-0.034 s)
+         ├─ → BPM02-AMC-120 (DTL-040 BPM 1/2) = NOK   [= 0]        @ 20:13:56.656  (-0.032 s)
+         ├─ → BPM02-AMC-130 (DTL-050 BPM 1/2) = NOK   [= 0]        @ 20:13:56.657  (-0.032 s)
+         └─ → BPM14-AMC-230 (DmpL-030 QC BPM 1/DmpL-040 Drf BPM 1) = NOK   [= 0]   @ 20:13:57.651  (+0.963 s)
+  → Accelerator Systems = NOK   [= 0]                              @ 20:13:56.691  (+0.003 s)
+      └─ → RF Systems = NOK   [= 0]                                @ 20:13:56.687  (-0.001 s)
+         ├─ → DTL-010 = NOK   [= 0]                                @ 20:13:56.666  (-0.022 s)
+         ├─ → DTL-020 = NOK   [= 0]                                @ 20:13:56.667  (-0.022 s)
+         ├─ → DTL-030 = NOK   [= 0]                                @ 20:13:56.667  (-0.022 s)
+         ├─ → DTL-050 = NOK   [= 0]                                @ 20:13:56.671  (-0.018 s)
+         ├─ → MBL-040 S2 = NOK   [= 0]                             @ 20:13:56.672  (-0.016 s)
+         ├─ → MBL-040 S3 = NOK   [= 0]                             @ 20:13:56.673  (-0.016 s)
+         ├─ → MBL-040 S4 = NOK   [= 0]                             @ 20:13:56.673  (-0.015 s)
+         ├─ → MBL-050 S1 = NOK   [= 0]                             @ 20:13:56.674  (-0.014 s)
+         ├─ → MBL-050 S2 = NOK   [= 0]                             @ 20:13:56.674  (-0.014 s)
+         ├─ → MBL-050 S3 = NOK   [= 0]                             @ 20:13:56.675  (-0.013 s)
+         ├─ → MBL-050 S4 = NOK   [= 0]                             @ 20:13:56.675  (-0.013 s)
+         ├─ → MBL-060 S1 = NOK   [= 0]                             @ 20:13:56.677  (-0.011 s)
+         ├─ → MBL-060 S2 = NOK   [= 0]                             @ 20:13:56.679  (-0.009 s)
+         ├─ → MBL-060 S3 = NOK   [= 0]                             @ 20:13:56.679  (-0.009 s)
+         ├─ → MBL-060 S4 = NOK   [= 0]                             @ 20:13:56.681  (-0.008 s)
+         ├─ → MBL-070 S1 = NOK   [= 0]                             @ 20:13:56.681  (-0.008 s)
+         ├─ → MBL-070 S2 = NOK   [= 0]                             @ 20:13:56.681  (-0.007 s)
+         ├─ → MBL-070 S3 = NOK   [= 0]                             @ 20:13:56.681  (-0.007 s)
+         ├─ → MBL-070 S4 = NOK   [= 0]                             @ 20:13:56.681  (-0.007 s)
+         ├─ → MBL-080 S1 = NOK   [= 0]                             @ 20:13:56.681  (-0.007 s)
+         ├─ → MBL-080 S2 = NOK   [= 0]                             @ 20:13:56.681  (-0.007 s)
+         ├─ → MBL-080 S3 = NOK   [= 0]                             @ 20:13:56.681  (-0.007 s)
+         ├─ → MBL-080 S4 = NOK   [= 0]                             @ 20:13:56.681  (-0.007 s)
+         ├─ → MBL-090 S1 = NOK   [= 0]                             @ 20:13:56.682  (-0.007 s)
+         ├─ → MBL-090 S2 = NOK   [= 0]                             @ 20:13:56.682  (-0.007 s)
+         ├─ → MBL-090 S3 = NOK   [= 0]                             @ 20:13:56.682  (-0.006 s)
+         ├─ → MBL-090 S4 = NOK   [= 0]                             @ 20:13:56.682  (-0.006 s)
+         ├─ → HBL-010 S1 = NOK   [= 0]                             @ 20:13:56.682  (-0.006 s)
+         ├─ → HBL-010 S2 = NOK   [= 0]                             @ 20:13:56.683  (-0.006 s)
+         ├─ → HBL-010 S3 = NOK   [= 0]                             @ 20:13:56.685  (-0.003 s)
+         ├─ → HBL-010 S4 = NOK   [= 0]                             @ 20:13:56.686  (-0.003 s)
+         ├─ → HBL-020 S1 = NOK   [= 0]                             @ 20:13:56.686  (-0.003 s)
+         ├─ → HBL-020 S2 = NOK   [= 0]                             @ 20:13:56.686  (-0.002 s)
+         ├─ → HBL-020 S3 = NOK   [= 0]                             @ 20:13:56.686  (-0.002 s)
+         ├─ → HBL-020 S4 = NOK   [= 0]                             @ 20:13:56.686  (-0.002 s)
+         ├─ → HBL-030 S1 = NOK   [= 0]                             @ 20:13:56.686  (-0.002 s)
+         ├─ → HBL-030 S2 = NOK   [= 0]                             @ 20:13:56.686  (-0.002 s)
+         ├─ → HBL-030 S3 = NOK   [= 0]                             @ 20:13:56.686  (-0.002 s)
+         ├─ → HBL-030 S4 = NOK   [= 0]                             @ 20:13:56.687  (-0.002 s)
+         ├─ → HBL-040 S1 = NOK   [= 0]                             @ 20:13:56.687  (-0.002 s)
+         ├─ → HBL-040 S2 = NOK   [= 0]                             @ 20:13:56.687  (-0.002 s)
+         ├─ → HBL-040 S3 = NOK   [= 0]                             @ 20:13:56.687  (-0.001 s)
+         ├─ → HBL-040 S4 = NOK   [= 0]                             @ 20:13:56.687  (-0.001 s)
+         ├─ → HBL-050 S1 = NOK   [= 0]                             @ 20:13:56.687  (-0.001 s)
+         ├─ → HBL-050 S2 = NOK   [= 0]                             @ 20:13:56.690  (+0.001 s)
+         ├─ → HBL-050 S3 = NOK   [= 0]                             @ 20:13:56.690  (+0.001 s)
+         └─ → HBL-050 S4 = NOK   [= 0]                             @ 20:13:56.691  (+0.003 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 20:47:42
+Duration : 11 min 21 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]     @ 20:47:42.663  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = SlowCommissioning        @ 18:19:34.934  (-2 h 28 min)
+    Beam Destination = BeamDump          @ 13:51:01.427  (-6 h 56 min)
+    Expected Current = 62.0 mA           @ 20:40:58.592  (-6 min 44 s)
+    Beam Frequency = 1.0 Hz              @ 20:36:23.057  (-11 min 20 s)
+    RF Frequency = 1.0 Hz                @ 09:35:45.059  (-11 h 11 min)
+    Source Frequency = 1.0 Hz            @ 09:35:45.059  (-11 h 11 min)
+    Source Pulse Length = 6500.0 us      @ 2026-06-25 15:45:37.262  (-101 h 2 min)
+    LEBT Pulse Length = 5.0 us           @ 20:36:20.263  (-11 min 22 s)
+    Beam Pulse Length = 5.0 us           @ 20:36:20.263  (-11 min 22 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]    @ 20:47:42.670  (+0.007 s)
+      └─ → RF Systems = NOK   [= 0]      @ 20:47:42.670  (+0.006 s)
+         └─ → HBL-040 S2 = NOK   [= 0]   @ 20:47:42.669  (+0.006 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 21:06:49
+Duration : 5 min 28 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]    @ 21:06:49.660  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = SlowCommissioning       @ 18:19:34.934  (-2 h 47 min)
+    Beam Destination = BeamDump         @ 13:51:01.427  (-7 h 15 min)
+    Expected Current = 61.3568 mA       @ 21:06:02.332  (-47.328 s)
+    Beam Frequency = 1.0 Hz             @ 20:36:23.057  (-30 min 27 s)
+    RF Frequency = 1.0 Hz               @ 09:35:45.059  (-11 h 31 min)
+    Source Frequency = 1.0 Hz           @ 09:35:45.059  (-11 h 31 min)
+    Source Pulse Length = 6500.0 us     @ 2026-06-25 15:45:37.262  (-101 h 21 min)
+    LEBT Pulse Length = 5.0 us          @ 20:36:20.263  (-30 min 29 s)
+    Beam Pulse Length = 5.0 us          @ 20:36:20.263  (-30 min 29 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]   @ 21:06:49.662  (+0.002 s)
+      └─ → RF Systems = NOK   [= 0]     @ 21:06:49.660  (-0.000 s)
+         └─ → RFQ-010 = NOK   [= 0]     @ 21:06:49.657  (-0.003 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 21:12:33
+Duration : 7 min 23 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]     @ 21:12:33.676  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = SlowCommissioning        @ 18:19:34.934  (-2 h 52 min)
+    Beam Destination = BeamDump          @ 13:51:01.427  (-7 h 21 min)
+    Expected Current = 28.835 mA         @ 21:11:40.352  (-53.324 s)
+    Beam Frequency = 1.0 Hz              @ 21:12:33.057  (-0.619 s)
+    RF Frequency = 1.0 Hz                @ 09:35:45.059  (-11 h 36 min)
+    Source Frequency = 1.0 Hz            @ 09:35:45.059  (-11 h 36 min)
+    Source Pulse Length = 6500.0 us      @ 2026-06-25 15:45:37.262  (-101 h 26 min)
+    LEBT Pulse Length = 5.0 us           @ 21:12:30.268  (-3.408 s)
+    Beam Pulse Length = 5.0 us           @ 21:12:30.268  (-3.408 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]    @ 21:12:33.681  (+0.005 s)
+      └─ → RF Systems = NOK   [= 0]      @ 21:12:33.681  (+0.005 s)
+         ├─ → MBL-050 S4 = NOK   [= 0]   @ 21:12:33.665  (-0.011 s)
+         ├─ → MBL-060 S1 = NOK   [= 0]   @ 21:12:33.666  (-0.010 s)
+         ├─ → MBL-060 S2 = NOK   [= 0]   @ 21:12:33.667  (-0.009 s)
+         ├─ → MBL-060 S3 = NOK   [= 0]   @ 21:12:33.667  (-0.009 s)
+         ├─ → MBL-060 S4 = NOK   [= 0]   @ 21:12:33.668  (-0.008 s)
+         ├─ → MBL-070 S1 = NOK   [= 0]   @ 21:12:33.668  (-0.008 s)
+         ├─ → MBL-070 S2 = NOK   [= 0]   @ 21:12:33.668  (-0.007 s)
+         ├─ → MBL-070 S3 = NOK   [= 0]   @ 21:12:33.669  (-0.007 s)
+         ├─ → MBL-070 S4 = NOK   [= 0]   @ 21:12:33.669  (-0.007 s)
+         ├─ → MBL-080 S1 = NOK   [= 0]   @ 21:12:33.669  (-0.006 s)
+         ├─ → MBL-080 S3 = NOK   [= 0]   @ 21:12:33.670  (-0.006 s)
+         ├─ → MBL-080 S4 = NOK   [= 0]   @ 21:12:33.670  (-0.006 s)
+         ├─ → MBL-090 S1 = NOK   [= 0]   @ 21:12:33.671  (-0.005 s)
+         ├─ → MBL-090 S2 = NOK   [= 0]   @ 21:12:33.671  (-0.005 s)
+         ├─ → MBL-090 S4 = NOK   [= 0]   @ 21:12:33.671  (-0.005 s)
+         ├─ → HBL-010 S1 = NOK   [= 0]   @ 21:12:33.671  (-0.005 s)
+         ├─ → HBL-010 S2 = NOK   [= 0]   @ 21:12:33.671  (-0.005 s)
+         ├─ → HBL-010 S4 = NOK   [= 0]   @ 21:12:33.671  (-0.005 s)
+         ├─ → HBL-020 S1 = NOK   [= 0]   @ 21:12:33.673  (-0.003 s)
+         ├─ → HBL-020 S2 = NOK   [= 0]   @ 21:12:33.673  (-0.003 s)
+         ├─ → HBL-020 S3 = NOK   [= 0]   @ 21:12:33.673  (-0.003 s)
+         ├─ → HBL-020 S4 = NOK   [= 0]   @ 21:12:33.673  (-0.002 s)
+         ├─ → HBL-030 S1 = NOK   [= 0]   @ 21:12:33.674  (-0.002 s)
+         ├─ → HBL-030 S3 = NOK   [= 0]   @ 21:12:33.674  (-0.002 s)
+         ├─ → HBL-030 S4 = NOK   [= 0]   @ 21:12:33.675  (-0.001 s)
+         ├─ → HBL-040 S1 = NOK   [= 0]   @ 21:12:33.675  (-0.001 s)
+         ├─ → HBL-040 S2 = NOK   [= 0]   @ 21:12:33.676  (+0.000 s)
+         ├─ → HBL-040 S3 = NOK   [= 0]   @ 21:12:33.676  (+0.000 s)
+         ├─ → HBL-040 S4 = NOK   [= 0]   @ 21:12:33.679  (+0.003 s)
+         ├─ → HBL-050 S1 = NOK   [= 0]   @ 21:12:33.679  (+0.003 s)
+         ├─ → HBL-050 S2 = NOK   [= 0]   @ 21:12:33.680  (+0.004 s)
+         ├─ → HBL-050 S3 = NOK   [= 0]   @ 21:12:33.680  (+0.004 s)
+         └─ → HBL-050 S4 = NOK   [= 0]   @ 21:12:33.680  (+0.004 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 21:27:24
+Duration : 3 min 50 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]    @ 21:27:24.660  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = SlowCommissioning       @ 18:19:34.934  (-3 h 7 min)
+    Beam Destination = BeamDump         @ 13:51:01.427  (-7 h 36 min)
+    Expected Current = 61.7583 mA       @ 21:23:59.042  (-3 min 26 s)
+    Beam Frequency = 1.0 Hz             @ 21:20:57.057  (-6 min 28 s)
+    RF Frequency = 1.0 Hz               @ 09:35:45.059  (-11 h 51 min)
+    Source Frequency = 1.0 Hz           @ 09:35:45.059  (-11 h 51 min)
+    Source Pulse Length = 6500.0 us     @ 2026-06-25 15:45:37.262  (-101 h 41 min)
+    LEBT Pulse Length = 5.0 us          @ 21:20:54.263  (-6 min 30 s)
+    Beam Pulse Length = 5.0 us          @ 21:20:54.263  (-6 min 30 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]       @ 21:27:25.660  (+1.000 s)
+      └─ → BCM = NOK   [= 0]            @ 21:27:25.657  (+0.998 s)
+         └─ → PBI-BCM07 = NOK   [= 0]   @ 21:27:25.656  (+0.996 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 21:33:03
+Duration : 3 min 24 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]     @ 21:33:03.661  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = SlowCommissioning        @ 21:32:30.428  (-33.233 s)
+    Beam Destination = BeamDump          @ 13:51:01.427  (-7 h 42 min)
+    Expected Current = 57.6842 mA        @ 21:33:02.277  (-1.384 s)
+    Beam Frequency = 1.0 Hz              @ 21:33:03.057  (-0.604 s)
+    RF Frequency = 1.0 Hz                @ 09:35:45.059  (-11 h 57 min)
+    Source Frequency = 1.0 Hz            @ 09:35:45.059  (-11 h 57 min)
+    Source Pulse Length = 6500.0 us      @ 2026-06-25 15:45:37.262  (-101 h 47 min)
+    LEBT Pulse Length = 5.0 us           @ 21:33:00.262  (-3.398 s)
+    Beam Pulse Length = 5.0 us           @ 21:33:00.262  (-3.398 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]        @ 21:33:04.653  (+0.993 s)
+      └─ → BCM = NOK   [= 0]             @ 21:33:04.652  (+0.992 s)
+         └─ → PBI-BCM07 = NOK   [= 0]    @ 21:33:04.649  (+0.988 s)
+  → Accelerator Systems = NOK   [= 0]    @ 21:33:03.662  (+0.002 s)
+      └─ → RF Systems = NOK   [= 0]      @ 21:33:03.662  (+0.001 s)
+         ├─ → MBL-090 S4 = NOK   [= 0]   @ 21:33:03.658  (-0.003 s)
+         ├─ → HBL-010 S4 = NOK   [= 0]   @ 21:33:03.659  (-0.002 s)
+         ├─ → HBL-020 S1 = NOK   [= 0]   @ 21:33:03.659  (-0.002 s)
+         ├─ → HBL-020 S2 = NOK   [= 0]   @ 21:33:03.659  (-0.002 s)
+         ├─ → HBL-020 S3 = NOK   [= 0]   @ 21:33:03.660  (-0.001 s)
+         ├─ → HBL-040 S4 = NOK   [= 0]   @ 21:33:03.660  (-0.001 s)
+         ├─ → HBL-050 S1 = NOK   [= 0]   @ 21:33:03.660  (-0.001 s)
+         ├─ → HBL-050 S3 = NOK   [= 0]   @ 21:33:03.660  (-0.001 s)
+         └─ → HBL-050 S4 = NOK   [= 0]   @ 21:33:03.662  (+0.001 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 21:49:23
+Duration : 13 min 7 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]    @ 21:49:23.663  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = SlowCommissioning       @ 21:32:30.428  (-16 min 53 s)
+    Beam Destination = BeamDump         @ 13:51:01.427  (-7 h 58 min)
+    Expected Current = 61.7583 mA       @ 21:39:52.532  (-9 min 31 s)
+    Beam Frequency = 1.0 Hz             @ 21:36:39.057  (-12 min 45 s)
+    RF Frequency = 1.0 Hz               @ 09:35:45.059  (-12 h 13 min)
+    Source Frequency = 1.0 Hz           @ 09:35:45.059  (-12 h 13 min)
+    Source Pulse Length = 6500.0 us     @ 2026-06-25 15:45:37.262  (-102 h 3 min)
+    LEBT Pulse Length = 5.0 us          @ 21:36:36.263  (-12 min 47 s)
+    Beam Pulse Length = 5.0 us          @ 21:36:36.263  (-12 min 47 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Accelerator Systems = NOK   [= 0]   @ 21:49:23.665  (+0.002 s)
+      └─ → RF Systems = NOK   [= 0]     @ 21:49:23.660  (-0.003 s)
+         └─ → RFQ-010 = NOK   [= 0]     @ 21:49:23.659  (-0.004 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-29 22:13:54
+Duration : 8 min 21 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]     @ 22:13:54.666  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = SlowCommissioning        @ 21:32:30.428  (-41 min 24 s)
+    Beam Destination = BeamDump          @ 13:51:01.427  (-8 h 22 min)
+    Expected Current = 61.7583 mA        @ 21:39:52.532  (-34 min 2 s)
+    Beam Frequency = 1.07692 Hz          @ 22:13:54.000  (-0.667 s)
+    RF Frequency = 1.07692 Hz            @ 22:13:54.000  (-0.667 s)
+    Source Frequency = 1.07692 Hz        @ 22:13:54.000  (-0.667 s)
+    Source Pulse Length = 6500.0 us      @ 2026-06-25 15:45:37.262  (-102 h 28 min)
+    LEBT Pulse Length = 5.0 us           @ 22:02:38.262  (-11 min 16 s)
+    Beam Pulse Length = 5.0 us           @ 22:02:38.262  (-11 min 16 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]        @ 22:13:55.651  (+0.985 s)
+      └─ → BCM = NOK   [= 0]             @ 22:13:55.649  (+0.983 s)
+         └─ → PBI-BCM07 = NOK   [= 0]    @ 22:13:55.649  (+0.983 s)
+  → Accelerator Systems = NOK   [= 0]    @ 22:13:54.670  (+0.004 s)
+      └─ → RF Systems = NOK   [= 0]      @ 22:13:54.670  (+0.003 s)
+         ├─ → MBL-090 S4 = NOK   [= 0]   @ 22:13:54.666  (-0.000 s)
+         ├─ → HBL-010 S4 = NOK   [= 0]   @ 22:13:54.666  (+0.000 s)
+         ├─ → HBL-020 S1 = NOK   [= 0]   @ 22:13:54.667  (+0.000 s)
+         ├─ → HBL-020 S2 = NOK   [= 0]   @ 22:13:54.667  (+0.001 s)
+         ├─ → HBL-020 S3 = NOK   [= 0]   @ 22:13:54.667  (+0.001 s)
+         ├─ → HBL-040 S4 = NOK   [= 0]   @ 22:13:54.667  (+0.001 s)
+         ├─ → HBL-050 S1 = NOK   [= 0]   @ 22:13:54.668  (+0.002 s)
+         ├─ → HBL-050 S3 = NOK   [= 0]   @ 22:13:54.669  (+0.002 s)
+         └─ → HBL-050 S4 = NOK   [= 0]   @ 22:13:54.669  (+0.003 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-30 00:19:11
+Duration : 54 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]            @ 00:19:11.659  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                           @ 2026-06-29 23:35:24.426  (-43 min 47 s)
+    Beam Destination = BeamDump                 @ 2026-06-29 13:51:01.427  (-10 h 28 min)
+    Expected Current = 4.36033 mA               @ 2026-06-29 23:15:20.342  (-1 h 3 min)
+    Beam Frequency = 1.0 Hz                     @ 2026-06-29 23:05:23.056  (-1 h 13 min)
+    RF Frequency = 1.0 Hz                       @ 2026-06-29 22:13:56.057  (-2 h 5 min)
+    Source Frequency = 1.0 Hz                   @ 2026-06-29 22:13:56.057  (-2 h 5 min)
+    Source Pulse Length = 6500.0 us             @ 2026-06-25 15:45:37.262  (-104 h 33 min)
+    LEBT Pulse Length = 24.0 us                 @ 2026-06-29 23:35:41.262  (-43 min 30 s)
+    Beam Pulse Length = 5.0 us                  @ 2026-06-29 23:05:21.262  (-1 h 13 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]               @ 00:19:12.661  (+1.002 s)
+      └─ → Imaging Systems = NOK   [= 0]        @ 00:19:12.660  (+1.001 s)
+         └─ → DmpL-050 Img-002: = NOK   [= 0]   @ 00:19:12.654  (+0.995 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-30 00:20:57
+Duration : 29 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]            @ 00:20:57.658  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = Probe                           @ 2026-06-29 23:35:24.426  (-45 min 33 s)
+    Beam Destination = BeamDump                 @ 2026-06-29 13:51:01.427  (-10 h 29 min)
+    Expected Current = 4.36033 mA               @ 2026-06-29 23:15:20.342  (-1 h 5 min)
+    Beam Frequency = 1.0 Hz                     @ 2026-06-29 23:05:23.056  (-1 h 15 min)
+    RF Frequency = 1.0 Hz                       @ 2026-06-29 22:13:56.057  (-2 h 7 min)
+    Source Frequency = 1.0 Hz                   @ 2026-06-29 22:13:56.057  (-2 h 7 min)
+    Source Pulse Length = 6500.0 us             @ 2026-06-25 15:45:37.262  (-104 h 35 min)
+    LEBT Pulse Length = 24.0 us                 @ 2026-06-29 23:35:41.262  (-45 min 16 s)
+    Beam Pulse Length = 5.0 us                  @ 2026-06-29 23:05:21.262  (-1 h 15 min)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]               @ 00:20:58.659  (+1.000 s)
+      └─ → Imaging Systems = NOK   [= 0]        @ 00:20:58.657  (+0.999 s)
+         └─ → DmpL-050 Img-002: = NOK   [= 0]   @ 00:20:58.655  (+0.997 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-30 01:12:37
+Duration : 1 min 17 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]            @ 01:12:37.658  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = RfTest                          @ 00:33:03.927  (-39 min 34 s)
+    Beam Destination = BeamDump                 @ 00:33:06.427  (-39 min 31 s)
+    Expected Current = 4.36033 mA               @ 01:12:08.772  (-28.886 s)
+    Beam Frequency = 1.0 Hz                     @ 01:10:11.056  (-2 min 27 s)
+    RF Frequency = 7.0 Hz                       @ 00:48:27.056  (-24 min 11 s)
+    Source Frequency = 7.0 Hz                   @ 00:48:27.056  (-24 min 11 s)
+    Source Pulse Length = 6500.0 us             @ 2026-06-25 15:45:37.262  (-105 h 27 min)
+    LEBT Pulse Length = 69.0 us                 @ 01:10:08.263  (-2 min 29 s)
+    Beam Pulse Length = 50.0 us                 @ 01:10:08.263  (-2 min 29 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]               @ 01:12:38.657  (+0.999 s)
+      └─ → Imaging Systems = NOK   [= 0]        @ 01:12:38.656  (+0.998 s)
+         └─ → DmpL-050 Img-002: = NOK   [= 0]   @ 01:12:38.655  (+0.997 s)
+════════════════════════════════════════════════════
+```
+
+```
+════════════════════════════════════════════════════
+REPORT  |  Beam  |  Beam
+════════════════════════════════════════════════════
+Time     : 2026-06-30 01:34:24
+Duration : 1 min 37 s
+Trigger  : FBIS::beam_permit_ok = 0
+Config   : release 2026.10.04-004 / Beam
+Window   : interlock -2/+5 s, context -120/+10 s
+────────────────────────────────────────────────────
+[TRIGGERS]
+  → FBIS::beam_permit_ok = 0   [= 0]            @ 01:34:24.668  (+0.000 s)
+────────────────────────────────────────────────────
+[BEAM STATUS]
+    Beam Mode = RfTest                          @ 00:33:03.927  (-1 h 1 min)
+    Beam Destination = BeamDump                 @ 00:33:06.427  (-1 h 1 min)
+    Expected Current = 4.36033 mA               @ 01:12:08.772  (-22 min 16 s)
+    Beam Frequency = 1.0 Hz                     @ 01:14:11.056  (-20 min 14 s)
+    RF Frequency = 7.0 Hz                       @ 00:48:27.056  (-45 min 58 s)
+    Source Frequency = 7.0 Hz                   @ 00:48:27.056  (-45 min 58 s)
+    Source Pulse Length = 6500.0 us             @ 2026-06-25 15:45:37.262  (-105 h 48 min)
+    LEBT Pulse Length = 69.0 us                 @ 01:14:09.262  (-20 min 15 s)
+    Beam Pulse Length = 50.0 us                 @ 01:14:09.262  (-20 min 15 s)
+────────────────────────────────────────────────────
+[MPS]
+  → Beam Monitoring = NOK   [= 0]               @ 01:34:25.673  (+1.006 s)
+      └─ → Imaging Systems = NOK   [= 0]        @ 01:34:25.673  (+1.005 s)
+         └─ → DmpL-050 Img-002: = NOK   [= 0]   @ 01:34:25.658  (+0.990 s)
+════════════════════════════════════════════════════
+```
+
